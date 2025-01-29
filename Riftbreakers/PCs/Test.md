@@ -1,6 +1,7 @@
---- start-multi-column: CharacterSheets1  
+--- start-multi-column: ExampleRegion7  
 ```column-settings  
 number of columns: 2
+column spacing: 0px
 border: off
 ```
 
@@ -31,12 +32,11 @@ border: off
 
 #### Abilites & Saves
 
-```start-multi-column
-ID: ID_xp80
-
-Number of Columns: 2
-Largest Column: standard
-Border: off
+--- start-multi-column: ExampleRegion2
+```column-settings
+number of columns: 2
+column spacing: 0px
+border: off
 ```
 
 ##### Strength: 17
@@ -67,12 +67,12 @@ Border: off
 
 --- end-multi-column
 
-```start-multi-column
-ID: ID_f9l0
-
-Number of Columns: 2
-Largest Column: standard
-Border: off
+--- start-multi-column: ExampleRegion3
+```column-settings
+number of columns: 2
+column spacing: 0px
+border: off
+```der: off
 ```
 
 ##### Wisdom: 12
@@ -103,12 +103,12 @@ Border: off
 #### Combat & Skills
 
 
-```start-multi-column
-ID: ID_x8l5
-
-Number of Columns: 2
-Largest Column: standard
-Border: off
+--- start-multi-column: ExampleRegion4
+```column-settings
+number of columns: 2
+column spacing: 0px
+border: off
+```der: off
 ```
 
 **Fighting Ability:** 1
@@ -151,11 +151,11 @@ Border: off
 
 #### Class Abilities
 
-```start-multi-column
-ID: ID_doi8
-Number of Columns: 2
-Largest Column: standard
-Border: off
+--- start-multi-column: ExampleRegion5
+```column-settings
+number of columns: 2
+column spacing: 0px
+border: off
 ```
 
 **Alertness:** Reduces by one (-1) on a d6 roll  the party’s chance to be *surprized*.
@@ -197,11 +197,11 @@ Furthermore, the ranger can identify in general terms the species tracked if it 
 #### Equipment
 
 
-```start-multi-column
-ID: ID_vj5f
-Number of Columns: 2
-Largest Column: standard
-Border: off
+--- start-multi-column: ExampleRegion7
+```column-settings
+number of columns: 2
+column spacing: 0px
+border: off
 ```
 
 <br>
@@ -258,11 +258,11 @@ Border: off
 #### Monetary Treasure
 
 
-```start-multi-column
-ID: ID_061w
-Number of Columns: 2
-Largest Column: standard
-Border: off
+--- start-multi-column: ExampleRegion8
+```column-settings
+number of columns: 2
+column spacing: 0px
+border: off
 ```
 
 <br>
@@ -292,11 +292,11 @@ Border: off
 #### Background
 
 
-```start-multi-column
-ID: ID_vpye
-Number of Columns: 2
-Largest Column: standard
-Border: off
+--- start-multi-column: ExampleRegion9
+```column-settings
+number of columns: 2
+column spacing: 0px
+border: off
 ```
 
 X
@@ -306,9 +306,3 @@ X
 X
 
 --- end-multi-column
-
-Líadan Inghean Machar.md
-
-[![](https://lh3.googleusercontent.com/ogw/AF2bZygzyGMbkvlJjwzYN4-BboyJCNj4qjXeNYh7saDBi8uxsmg=s32-c-mo)](https://accounts.google.com/SignOutOptions?hl=en-GB&continue=https://drive.google.com/file/d/1y6QGwYb37tVDPKaxzLyLY7HCXQ4AVqh8/view%3Fusp%3Dsharing&service=writely&ec=GBRAGQ)
-
-Displaying Líadan Inghean Machar.md.
