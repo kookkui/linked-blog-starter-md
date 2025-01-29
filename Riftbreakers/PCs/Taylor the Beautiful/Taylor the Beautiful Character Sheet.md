@@ -1,6 +1,6 @@
 ---
 exampleProperty: Novice
-xp: 1450
+xp: 1550
 PPCHP: 32
 PPCMP: 31
 PPCST: 29
@@ -210,14 +210,6 @@ INPUT[progressBar(class(orange-progress-bar), maxValue(29)):PPCST]
 |       |     |
 
 
-| Air   | Bane | Boon | Chaos | Dark  | Death |
-| ----- | ---- | ---- | ----- | ----- | ----- |
-| `0`   | `0`  | `0`  | `0`   | `0`   | `0`   |
-| Earth | Fire | Life | Light | Power | Water |
-| `0`   | `0`  | `0`  | `0`   | `0`   | `0`   |
-
-
-
 ### Minerals
 
 | Coal   | 20  |
@@ -274,27 +266,3 @@ STR + 10 = `INPUT[number:Itemslotmax]`
 | 38  |                                                                                                                                      |     |
 | 39  |                                                                                                                                      |     |
 | 40  |                                                                                                                                      |     |
-
-
-
-| Skill Name                | Skill Level |
-| ------------------------- | ----------- |
-| **Alchemy** (INT)         | `0`         |
-| **Acrobatics** (DEX)      | `0`         |
-| **Animal Handling** (CHA) | `0`         |
-| **Athletics** (STR)       | `0`         |
-| **Blacksmithing** (DEX)   | `0`         |
-| **Command** (CHA)         | `0`         |
-| **Gathering** (DEX)       | `0`         |
-| **Nature** (INT)          | `0`         |
-| **Manipulation** (CHA)    | `0`         |
-| **Medicine** (INT)        | `0`         |
-| **Leatherworking** (DEX)  | `0`         |
-| **Insight** (WIL)         | `0`         |
-| **Dodge** (DEX)           | `0`         |
-| **Perception** (WIL)      | `0`         |
-| **Performance** (CHA)     | `0`         |
-| **Sailing** (DEX)         | `0`         |
-| **Sleight of Hand** (DEX) | `0`         |
-| **Stealth** (DEX)         | `0`         |
-| **Survival** (INT)        | `0`         |
