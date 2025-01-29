@@ -23,12 +23,6 @@ INPUT[multiSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade),
 
 ## Heart Abilities
 
---- start-multi-column: Hearts
-```column-settings  
-number of columns: 1  
-column size: large
-```
-
 | Ability Name | Life Bolt  | Type  | Holy, Attack, Support |
 |:------------:|:----------:|:-----:|:---------------------:|
 |     Rank     |   Novice   |  XP   |                       |
@@ -162,9 +156,3 @@ Description:
 | Cost         |     | Heart |     |
 | Actions      |     | Range |     |
 Description:
-
-
-
-
-
---- end-multi-column

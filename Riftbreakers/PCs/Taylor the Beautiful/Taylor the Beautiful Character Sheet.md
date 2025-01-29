@@ -42,6 +42,7 @@ Gloves: |-
   Object: Gloves
   Value: 200A 
   Quirk: Smells like rotten flesh
+Itemslotmax: 20
 ---
 ## Title  `INPUT[text:Title]`
 
@@ -88,7 +89,7 @@ INPUT[progressBar(class(orange-progress-bar), maxValue(29)):PPCST]
 ---
 ## Stats
 
-| Strength         | <center>10</center> | Brawn            | <center>50</center> | **Luck**        |   <span style="color:rgb(0, 176, 240)">5</span>   |
+| **Strength**     | <center>10</center> | **Brawn**        | <center>50</center> | **Luck**        |   <span style="color:rgb(0, 176, 240)">5</span>   |
 | ---------------- | ------------------- | ---------------- | :-----------------: | --------------- | :-----------------------------------------------: |
 | **Dexterity**    | <center>16</center> | **Coordination** | <center>80</center> | **Armor**       | <span style="color:rgb(255, 128, 31)">D4+3</span> |
 | **Constitution** | <center>18</center> | **Vitality**     | <center>90</center> | **Speed**       |                       15/30                       |
@@ -97,7 +98,9 @@ INPUT[progressBar(class(orange-progress-bar), maxValue(29)):PPCST]
 | **Charisma**     | <center>14</center> | **Charm**        | <center>70</center> |                 |                                                   |
 | **STR Damage**   |                     | **DEX Damage**   |         +4          | **WIL Damage**  |                        +1                         |
 
+
 ---
+
 
 |       **Weapons**        | **Type** | **Damage** |                 **Notes**                  |
 | :----------------------: | :------: | :--------: | :----------------------------------------: |
