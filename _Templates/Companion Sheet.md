@@ -1,25 +1,31 @@
 ---
 Role: Executioner
 ---
+---
 ### Type: `INPUT[suggester(option(Bulwark), option(Controller), option(Executioner), option(Mender)):Role]`
 
-## HP
-`0`
-## Quest Completed
-`0`
+```meta-bind
+INPUT[progressBar(class(green-progress-bar), maxValue(32), title(HP)):CompanionHP]
+```
+### Standard Attack: 
+### Companion Level: 1
+#### Quest Completed
+`0/5`
 
-### Follower Type
+| Strength         |     | Brawn            |     | **Max Health** |       |
+| ---------------- | :-: | ---------------- | :-: | :------------: | :---: |
+| **Dexterity**    |     | **Coordination** |     |   **Armor**    |       |
+| **Constitution** |     | **Vitality**     |     |   **Dodge**    |       |
+| **Will**         |     | **Tenacity**     |     |   **Range**    |       |
+| **Intelligence** |     | **Intellect**    |     |   **Parry**    |       |
+| **Charisma**     |     | **Charm**        |     |                |       |
+
+---
+### Follower Name: 
+#### Follower Type:
 `INPUT[textArea:type]`
 
-| Strength         |     | Brawn            |     | **Max Health** |     |
-| ---------------- | --- | ---------------- | --- |:--------------:|:---:|
-| **Dexterity**    |     | **Coordination** |     |   **Armor**    |     |
-| **Constitution** |     | **Vitality**     |     |   **Dodge**    |     |
-| **Will**         |     | **Tenacity**     |     |   **Range**    |     |
-| **Intelligence** |     | **Intellect**    |     |   **Parry**    |     |
-| **Charisma**     |     | **Charm**        |     |                |     |
-
-
+---
 ## Chest
 `INPUT[textArea:Chest]`
 ## Legs
@@ -32,3 +38,5 @@ Role: Executioner
 `INPUT[textArea:Ring2]`
 ## Combat Strategy
 `INPUT[textArea:Pendant]`
+## Notes
+`INPUT[textArea:Notes]`
