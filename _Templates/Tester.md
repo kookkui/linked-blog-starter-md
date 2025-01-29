@@ -62,64 +62,61 @@ exampleProperty: Apprentice
 >> **XP** | `VIEW[{xp}][text]`
 >>  
 >> ###### Weapons
-| **Weapons** | **Type** | **Damage** | **Notes** |
-| ---------------------- | ---------------- | --------------- | --------------- |
-| Broad Sword (mastery)  | 2                | 3/2             | +2              |
-| Dagger                 | 1                | 1/1             | +1              |
-| Hand Axe               | 1                | 1/1             | +1              |
-|                        |                  |                 |                 |
-|                        |                  |                 |                 |
+>>| **Weapons** | **Type** | **Damage** | **Notes** |
+>>| ---------------------- | ---------------- | --------------- | ------------- |
+>>| Broad Sword (mastery)  | 2                | 3/2             | +2              |
+>>| Dagger                 | 1                | 1/1             | +1              |
+>>|Hand Axe               | 1                | 1/1             | +1              |
+>>|                        |                  |                 |                 |
+>>|                        |                  |                 |                 |
 >> ###### Crafting Aspects
 >| Air   | Bane | Boon | Chaos | Dark  | Death |
 >| ----- | ---- | ---- | ----- | ----- | ----- |
 >| `0`   | `0`  | `0`  | `0`   | `0`   | `0`   |
 >| Earth | Fire | Life | Light | Power | Water |
 >| `0`   | `0`  | `0`  | `0`   | `0`   | `0`   |
->###### Minerals
->
->| Coal | Iron | Silver | Aglite |
->| ---- | ---- | ------ | ------ |
->| `0`  | `0`  | `0`    | `0`    |
+>>###### Minerals
+>>
+>>| Coal | Iron | Silver | Aglite |
+>>| ---- | ---- | ------ | ------ |
+>>| `0`  | `0`  | `0`    | `0`    |
 >>  ###### Currency
-| **⟑-N**         | **⟑-A**         | **⟑-V**         | **⟑-M**         |
-| -------------- | -------------- | ------------ | ---------------- |
-| 0 | 0 | 0 | 0 |
+>>| **⟑-N**         | **⟑-A**         | **⟑-V**         | **⟑-M**         |
+>>| -------------- | -------------- | ------------ | ---------------- |
+>>| 0 | 0 | 0 | 0 |
 >
->> [!infobox] Death Saves
->> ### Death Saves
-| Success | <input type="checkbox" unchecked>  | <input type="checkbox" unchecked> | <input type="checkbox" unchecked> | 
-| ------- | --- | --------------------------------- | --------------------------------- |
->>
-| Fails | <input type="checkbox" unchecked>  | <input type="checkbox" unchecked> | <input type="checkbox" unchecked> | 
-| ----- | --- | --------------------------------- | --------------------------------- |
->>
->> ### Skills
-| Skill | Score       | Mod                     | Prof                              | ST                                  |
-| ----- | ----------- | ----------------------- | --------------------------------- | ----------------------------------- |
-| <font color="#ff0000">**STR**</font>   | `=this.STR` | +`=(this.STR - 10)/2`   | <input type="checkbox" unchecked> | +`=(this.STR - 10)/2`               |
-| <font color="#ffff00">**DEX**</font>   | `=this.DEX`  | +`=(this.DEX - 10)/2`   | <input type="checkbox" unchecked> | +`=(this.DEX - 10)/2`               |
-| <font color="#00b050">**CON**</font>   | `=this.CONST` | +`=(this.CONST - 10)/2` | <input type="checkbox" unchecked>   | +`=((this.CONST - 10)/2)` |
-| <font color="#7030a0">**INT**</font>   | `=this.INT`          | +`=(this.INT - 10)/2`   | <input type="checkbox" unchecked>   | +`=((this.INT - 10)/2)`   |
-| <font color="#245bdb">**WIS**</font>   | `=this.WIS`          | +`=(this.WIS - 10)/2`   | <input type="checkbox" unchecked> | +`=(this.WIS - 10)/2`               |
-| <font color="#de7802">**CHA**</font>   | `=this.CHA`          | +`=(this.CHA - 10)/2`   | <input type="checkbox" unchecked> | +`=(this.CHA - 10)/2`               |
+>> [!infobox] %%FAKE TITLE HERE%%
+>> ### Stats
+>> |        |         |            |            |
+>>| ---- | ---- | ------ | ------ |
+>>| **Strength**     | 0 | **Brawn**        | 0 |
+>>| **Dexterity**    | 0 | **Coordination** | 0 |
+>>| **Constitution** | 0 | **Vitality**     | 0 |
+>>| **Will**         | 0 | **Tenacity**     |0|
+>>| **Intelligence** | 0 | **Intellect**    | 0 |
+>>| **Charisma**     | 0 | **Charm**        | 0 |
+>>| **STR Damage**   |   | **DEX Damage**   |+4  |
+>>| **Luck**        | 0 |  **WIL Damage**  | +1 |
+>>|     **Speed**   | 15/30| **Persistence** | 65|
 >> ### Skill Checks
-| Ability               |                                   | Mod |
-| --------------------- | --------------------------------- | --- |
-| Acrobatics (DEX)      | <input type="checkbox" unchecked> | `1` |
-| Animal Handling (WIS) | <input type="checkbox" unchecked> | +`=(this.WIS - 10)/2`  |
-| Arcana (INT)          | <input type="checkbox" unchecked> | +`=((this.INT - 10)/2)`  |
-| Athletics (STR)       | <input type="checkbox" unchecked> | +`=(this.STR - 10)/2`   |
-| Deception (CHA)       | <input type="checkbox" unchecked> | +`=(this.CHA - 10)/2`  |
-| History (INT)         | <input type="checkbox" unchecked> | +`=(this.INT - 10)/2`  |
-| Insight (WIS)         | <input type="checkbox" unchecked>   | +`=((this.WIS - 10)/2)`  |
-| Intimidation (CHA)    | <input type="checkbox" unchecked> | +`=(this.CHA - 10)/2`  |
-| Investigation (INT)   | <input type="checkbox" unchecked>   | +`=((this.INT - 10)/2)`  |
-| Medicine (WIS)        | <input type="checkbox" unchecked> | +`=(this.WIS - 10)/2`  |
-| Nature (INT)          | <input type="checkbox" unchecked> | +`=(this.INT - 10)/2`  |
-| Perception (WIS)      | <input type="checkbox" unchecked>   | +`=((this.WIS - 10)/2)`  |
-| Performance (CHA)     | <input type="checkbox" unchecked> | +`=(this.CHA - 10)/2`  |
-| Persuasion (CHA)      | <input type="checkbox" unchecked> | +`=(this.CHA - 10)/2`  |
-| Religion (INT)        | <input type="checkbox" unchecked> | +`=(this.INT - 10)/2`  |
-| Sleight of Hand (DEX) | <input type="checkbox" unchecked> | +`=(this.DEX - 10)/2`   |
-| Stealth (DEX)         | <input type="checkbox" unchecked> | +`=(this.DEX - 10)/2`   |
-| Survival (WIS)        | <input type="checkbox" unchecked> | +`=(this.WIS - 10)/2`  |
+| Skill Name                | Skill Level |
+| ------------------------- | ----------- |
+| **Alchemy** (INT)         | `0`           |
+| **Acrobatics** (DEX)      | `0`           |
+| **Animal Handling** (CHA) | `0`           |
+| **Athletics** (STR)       | `0`           |
+| **Blacksmithing** (DEX)   | `0`           |
+| **Command** (CHA)         | `0`           |
+| **Gathering** (DEX)       | `0`           |
+| **Nature** (INT)          | `0`           |
+| **Manipulation** (CHA)    | `0`           |
+| **Medicine** (INT)        | `0`           |
+| **Leatherworking** (DEX)  | `0`           |
+| **Insight** (WIL)         | `0`           |
+| **Dodge** (DEX)           | `0`           |
+| **Perception** (WIL)      | `0`           |
+| **Performance** (CHA)     | `0`           |
+| **Sailing** (DEX)         | `0`           |
+| **Sleight of Hand** (DEX) | `0`           |
+| **Stealth** (DEX)         | `0`           |
+| **Survival** (INT)        | `0`           |
