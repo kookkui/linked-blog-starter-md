@@ -11,9 +11,7 @@
 >**Random Difficulty**
 >`dice:[[General Tables#^35d049]]`
 
-
-
->[!travel] Overland Travel Tables
+> [!travel] Overland Travel Tables
 >
 >d10 Travel Die
 >`dice:[[Overworld Tables#^319324]]`

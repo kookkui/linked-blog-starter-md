@@ -44,8 +44,8 @@ Electrum: 0
 Gold: 0
 Platinum: 0
 ---
->[!column|flex 2]
->> [!infobox]
+>[!travel] Character Sheet
+>> [!travel]  
 >> # `=this.file.name`
 >> ![[Character Image Placeholder]]
 >> ###### Stats
