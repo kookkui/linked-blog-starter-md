@@ -131,9 +131,9 @@ border: off
 
 | **Melee Weapon Skill** | **Weapon Class** | **Attack Rate** | **Attack Mod.** | **Damage** | **Notes**           |
 | ---------------------- | ---------------- | --------------- | --------------- | ---------- | ------------------- |
-| Broad Sword (mastery)            | 2                | 3/2             | +2              | 1d8+3      | 1d10+3 (two-handed) |
+| Broad Sword (mastery)  | 2                | 3/2             | +2              | 1d8+3      | 1d10+3 (two-handed) |
 | Dagger                 | 1                | 1/1             | +1              | 1d4+2      |                     |
-| Hand Axe               | 1                | 1/1             | +1              | 1d6+2           |                     |
+| Hand Axe               | 1                | 1/1             | +1              | 1d6+2      |                     |
 |                        |                  |                 |                 |            |                     |
 
 | **Missle Weapon Skill** | **Range (S/M/L)** | **Attack Rate** | **Attack Mod.** | **Damage** | **Notes**                   |

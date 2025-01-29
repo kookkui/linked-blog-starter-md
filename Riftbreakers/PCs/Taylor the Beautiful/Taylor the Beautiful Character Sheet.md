@@ -207,6 +207,17 @@ INPUT[progressBar(class(orange-progress-bar), maxValue(29)):PPCST]
 | LIght | 16  |
 | Power | 10  |
 | Water | 10  |
+|       |     |
+
+
+| Air   | Bane | Boon | Chaos | Dark  | Death |
+| ----- | ---- | ---- | ----- | ----- | ----- |
+| `0`   | `0`  | `0`  | `0`   | `0`   | `0`   |
+| Earth | Fire | Life | Light | Power | Water |
+| `0`   | `0`  | `0`  | `0`   | `0`   | `0`   |
+
+
+
 ### Minerals
 
 | Coal   | 20  |
@@ -215,7 +226,6 @@ INPUT[progressBar(class(orange-progress-bar), maxValue(29)):PPCST]
 | Silver |  1  |
 | Aglite |  4  |
 ### Notes
-
 
 
 

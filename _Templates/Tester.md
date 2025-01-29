@@ -43,43 +43,47 @@ Silver: 0
 Electrum: 0
 Gold: 0
 Platinum: 0
+exampleProperty: Apprentice
 ---
->[!travel] Character Sheet
->> [!travel]  
+>[!dice] %%FAKE TITLE HERE%%
+>> [!dice] %%FAKE TITLE HERE%%  
 >> # `=this.file.name`
 >> ![[Character Image Placeholder]]
 >> ###### Stats
 >>  |
 >> ---|---|
->> **Level** |`=this.level` |
->>  **Speed** |`=this.Speed` |
->> **Proficiency** | +`=this.Prof` |
->> **Initiative** | +`=(this.DEX - 10)/2` |
->> **AC** | `=this.AC`
->> **HP** | `=this.HP - this.DmgTkn + this.TempHP` |
->> **Hit Dice** | `=this.Level + this.HitDice`  |
->> **Passive Perception** |
+>> **Rank** |`INPUT[suggester(option(Novice), option(Apprentice), option(Veteran), option(Master)):exampleProperty]` |
+>>  **Title** |`INPUT[text:Title]` |
+>> **Reputation** | `3` |
+>>  **HP** | `32` /32
+>> **Aether** | `31` /31 |
+>> **Stamina** | `29` /29 |
+>> **Armor** | D4+3  |
+>> **XP** | `VIEW[{xp}][text]`
 >>  
->> ###### Bio
->>   |
->> ---|---|
->> **Race** | `=this.race` |
->> **Sex** | `=this.gender` |
->> **Age** | `=this.age` |
->> **Sexuality** | `=this.sexuality` |
->> **Alignment** | `=this.alignment` |
->> ###### Info
->>   |
->> ---|---|
->> **Class(s)** | `=this.Class` |
->> **Sub-Class(s)** | `=this.Subclass`
->> **Group(s)** | `=this.AssociatedGroup` |
->> **Religion(s)** | `=this.AssociatedReligion` |
->> **Current Location** | `=this.Location` |
->>  ### Currency
-| Copper         | Silver         | Gold         | Platinum         |
+>> ###### Weapons
+| **Weapons** | **Type** | **Damage** | **Notes** |
+| ---------------------- | ---------------- | --------------- | --------------- |
+| Broad Sword (mastery)  | 2                | 3/2             | +2              |
+| Dagger                 | 1                | 1/1             | +1              |
+| Hand Axe               | 1                | 1/1             | +1              |
+|                        |                  |                 |                 |
+|                        |                  |                 |                 |
+>> ###### Crafting Aspects
+>| Air   | Bane | Boon | Chaos | Dark  | Death |
+>| ----- | ---- | ---- | ----- | ----- | ----- |
+>| `0`   | `0`  | `0`  | `0`   | `0`   | `0`   |
+>| Earth | Fire | Life | Light | Power | Water |
+>| `0`   | `0`  | `0`  | `0`   | `0`   | `0`   |
+>###### Minerals
+>
+>| Coal | Iron | Silver | Aglite |
+>| ---- | ---- | ------ | ------ |
+>| `0`  | `0`  | `0`    | `0`    |
+>>  ###### Currency
+| **⟑-N**         | **⟑-A**         | **⟑-V**         | **⟑-M**         |
 | -------------- | -------------- | ------------ | ---------------- |
-| `=this.Copper` | `=this.Silver` | `=this.Gold` | `=this.Platinum` |
+| 0 | 0 | 0 | 0 |
 >
 >> [!infobox] Death Saves
 >> ### Death Saves
