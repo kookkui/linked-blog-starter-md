@@ -233,47 +233,47 @@ INPUT[progressBar(class(orange-progress-bar), maxValue(29)):PPCST]
 STR + 10 = `INPUT[number:Itemslotmax]`
 ### Item Slots
 
-|  1  | Backpack                                                                                                                             |
-|:---:|:------------------------------------------------------------------------------------------------------------------------------------ |
-|  2  | Quiver                                                                                                                               |
-|  3  | Torch Ud10                                                                                                                           |
-|  4  | Bandage Ud12                                                                                                                         |
-|  5  | Arrows Ud12                                                                                                                          |
-|  6  | Rations x 2                                                                                                                          |
-|  7  | Rough Leather x 10                                                                                                                   |
-|  8  | Extra-Dimensional bag x 0                                                                                                            |
-|  9  | Ascended Essence (Prime)                                                                                                             |
-| 10  | Lantern                                                                                                                              |
-| 11  |                                                                                                                                      |
-| 12  | Aetheryte                                                                                                                            |
-| 13  | Stoneskin Potion. For the next hour you have +1 Armor, but your Dodge and Acrobatics skills are reduced by -10. Aspects: Stone, Boon |
-| 14  | Aetheryte                                                                                                                            |
-| 15  |                                                                                                                                      |
-| 16  |                                                                                                                                      |
-| 17  |                                                                                                                                      |
-| 18  |                                                                                                                                      |
-| 19  |                                                                                                                                      |
-| 20  |                                                                                                                                      |
-| 21  |                                                                                                                                      |
-| 22  |                                                                                                                                      |
-| 23  |                                                                                                                                      |
-| 24  |                                                                                                                                      |
-| 25  |                                                                                                                                      |
-| 26  |                                                                                                                                      |
-| 27  |                                                                                                                                      |
-| 28  |                                                                                                                                      |
-| 29  |                                                                                                                                      |
-| 30  |                                                                                                                                      |
-| 31  |                                                                                                                                      |
-| 32  |                                                                                                                                      |
-| 33  |                                                                                                                                      |
-| 34  |                                                                                                                                      |
-| 35  |                                                                                                                                      |
-| 36  |                                                                                                                                      |
-| 37  |                                                                                                                                      |
-| 38  |                                                                                                                                      |
-| 39  |                                                                                                                                      |
-| 40  |                                                                                                                                      |
+|  1  | Backpack                                                                                                                             |     |
+| :-: | :----------------------------------------------------------------------------------------------------------------------------------- | --- |
+|  2  | Quiver                                                                                                                               |     |
+|  3  | Torch Ud10                                                                                                                           |     |
+|  4  | Bandage Ud12                                                                                                                         |     |
+|  5  | Arrows Ud12                                                                                                                          |     |
+|  6  | Rations x 2                                                                                                                          |     |
+|  7  | Rough Leather x 10                                                                                                                   |     |
+|  8  | Extra-Dimensional bag x 0                                                                                                            |     |
+|  9  | Ascended Essence (Prime)                                                                                                             |     |
+| 10  | Lantern                                                                                                                              |     |
+| 11  |                                                                                                                                      |     |
+| 12  | Aetheryte                                                                                                                            |     |
+| 13  | Stoneskin Potion. For the next hour you have +1 Armor, but your Dodge and Acrobatics skills are reduced by -10. Aspects: Stone, Boon |     |
+| 14  | Aetheryte                                                                                                                            |     |
+| 15  |                                                                                                                                      |     |
+| 16  |                                                                                                                                      |     |
+| 17  |                                                                                                                                      |     |
+| 18  |                                                                                                                                      |     |
+| 19  |                                                                                                                                      |     |
+| 20  |                                                                                                                                      |     |
+| 21  |                                                                                                                                      |     |
+| 22  |                                                                                                                                      |     |
+| 23  |                                                                                                                                      |     |
+| 24  |                                                                                                                                      |     |
+| 25  |                                                                                                                                      |     |
+| 26  |                                                                                                                                      |     |
+| 27  |                                                                                                                                      |     |
+| 28  |                                                                                                                                      |     |
+| 29  |                                                                                                                                      |     |
+| 30  |                                                                                                                                      |     |
+| 31  |                                                                                                                                      |     |
+| 32  |                                                                                                                                      |     |
+| 33  |                                                                                                                                      |     |
+| 34  |                                                                                                                                      |     |
+| 35  |                                                                                                                                      |     |
+| 36  |                                                                                                                                      |     |
+| 37  |                                                                                                                                      |     |
+| 38  |                                                                                                                                      |     |
+| 39  |                                                                                                                                      |     |
+| 40  |                                                                                                                                      |     |
 
 
 
