@@ -101,7 +101,7 @@ Platinum: 0
 >> ### Skill Checks
 | Ability               |                                   | Mod |
 | --------------------- | --------------------------------- | --- |
-| Acrobatics (DEX)      | <input type="checkbox" unchecked> | +`=(this.DEX - 10)/2`   |
+| Acrobatics (DEX)      | <input type="checkbox" unchecked> | `1` |
 | Animal Handling (WIS) | <input type="checkbox" unchecked> | +`=(this.WIS - 10)/2`  |
 | Arcana (INT)          | <input type="checkbox" unchecked> | +`=((this.INT - 10)/2)`  |
 | Athletics (STR)       | <input type="checkbox" unchecked> | +`=(this.STR - 10)/2`   |
