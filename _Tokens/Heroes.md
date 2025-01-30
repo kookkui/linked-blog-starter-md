@@ -1,1 +1,1 @@
-![[IMG-20250129101347274.png]]![[IMG-20250129101347476.png]] ^4144f0![[Taylor_in_Action.webp]]
+![[IMG-20250129101347274.png]]![[Segard_in_action.png]] ^4144f0![[Taylor_in_Action.webp]]

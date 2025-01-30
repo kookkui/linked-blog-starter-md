@@ -21,6 +21,8 @@
 | 18-19     | Veteran                    |
 | 20        | Master                     |
 
+^166f52
+
 
 | dice: D20 | Apprentice - Random Enemy Rank |
 | --------- | ------------------------------ |
