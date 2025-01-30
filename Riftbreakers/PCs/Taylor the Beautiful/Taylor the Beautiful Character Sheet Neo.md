@@ -30,8 +30,9 @@ SocialTrait:
   - NONE
 MentalTrait:
   - NONE
-Proficiencies:
-  - NONE
+Proficiencies: |-
+  Weapons: Longbow, Scimitar
+  Armor: Soft Leather
 Resistances:
   - NONE
 Languages:
@@ -47,6 +48,38 @@ exampleProperty: Apprentice
 Title: Protector of Kar Helos
 axp: 
 xp: 1450
+Ring1: |
+  Name: Champion's Ring of the Snake
+  Magic: Dexterity +1, Reduce your Stamina pool by 5 (26), but increase your Aether pool by 8 (23). You no longer need to eat or drink.
+  Aspects: Air Life 2x Boon Bane 
+  Quirk: It's always pristine
+  Value: 300A
+Ring2: |
+  Name: Mage's Wonderful Ring 
+  Magic: Stamina +4, Stamina +4, On command, this item works as a source of light. Illuminates in a 20 m. radius.
+  Value: 300A
+  Aspects: Fire 2xPower Light 
+  Quirk: It's always covered in a layer of mucus
+Gloves: |-
+  Name: Victorious Gloves of the Whisper 
+  Aspects: Air Earth 
+  Magic: Constitution +1 Charisma +1
+  Rarity: Uncommon
+  Rank: Novice
+  Object: Gloves
+  Value: 200A 
+  Quirk: Smells like rotten flesh
+Other: |-
+  Name: Knight's Glass Stone
+  Magic: You can detect all living beings in a 20 m. radius. 
+  Increase your luck by +5
+  Rarity: Uncommon
+  Rank: Novice
+  Object: Other
+  Identified
+  Value: 200A
+  Aspects: Chaos Life Boon Light
+  Quirk: It appears to be completely made of glass. It doesn't make it more fragile than it should be though
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -89,6 +122,7 @@ xp: 1450
 >>| -------------- | -------------- | ------------ | ---------------- |
 >>| 205 | 0 | 0 | 0 |
 >
+>
 >>[!infobox] %%FAKE TITLE HERE%%
 >> ### Stats
 >> |        |         |            |            |
@@ -124,6 +158,8 @@ xp: 1450
 >>| **Sleight of Hand** (DEX) | `25`           |
 >>| **Stealth** (DEX)         | `38`           |
 >>| **Survival** (INT)        | `52`           |
+>>##### Proficiencies
+>>`INPUT[textArea:Proficiencies]`
 >
 >>[!table] %%FAKE TITLE HERE%%
 >> ### Inventory
@@ -168,60 +204,30 @@ xp: 1450
 >>| 38  |                                                                                                                                      |
 >>| 39  |                                                                                                                                      |
 >>| 40  |                                                                                                                  
->
+
+>[!seealso] %%FAKE TITLE HERE%%
 >>[!important] %%FAKE TITLE HERE%%
 >> ### Gear
->> ##### Head
+>>##### Head
 >>`INPUT[textArea:Head]`
->>
->>
-
->
->
->
->
->
->
->
->
->
->>
->
->
->
->>
->
->
->
->>
->
->
->
->>
->
->
->
->>
->
->
->
->>
->
->
->
->
-
-
-
-
-
-
-
-
-
-
-
-
+>>##### Chest
+>>`INPUT[textArea:Chest]`
+>>##### Belt
+>>`INPUT[textArea:Belt]`
+>>##### Pants
+>>`INPUT[textArea:Pant]`
+>>##### Boots
+>>`INPUT[textArea:Boots]`
+>>##### Gloves
+>>`INPUT[textArea:Gloves]`
+>>##### Ring 1
+>>`INPUT[textArea:Ring1]`
+>>##### Ring 2
+>>`INPUT[textArea:Ring2]`
+>>##### Pendant
+>>`INPUT[textArea:Pendant]`
+>>##### Other
+>>`INPUT[textArea:Other]`
 
 
 
