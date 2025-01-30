@@ -1,5 +1,5 @@
 - [ ] **Rift Closure:** Travel 14 days and close the marked rift. (Sky Islets).   
-`4/14`
+`5/14`
 - [ ] **Escort:** Escort a caravan - distance is 22 travel days.
 
 - [ ] **Patrol:** Patrol the perimeter and wilds for 17 days. Mark any rifts found with a beacon. Roll a d10 each day, on a 1 or 2, there is a rift.

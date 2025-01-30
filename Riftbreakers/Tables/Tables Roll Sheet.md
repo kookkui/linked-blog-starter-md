@@ -13,7 +13,7 @@
 
 > [!travel] Overland Travel Tables
 >
->d10 Travel Die
+>**d10 Travel Die**
 >`dice:[[Overworld Tables#^319324]]`
 >
 >**d12 Travel Die**
@@ -39,10 +39,12 @@
 >`dice:[[General Tables#^2bfe1b]]`
 
 >[!tldr] Travel - Kar Helos
->Travel - Kar Helos: Dangerous Encounters
+>**Travel - Kar Helos: Dangerous Encounters**
 >`dice:[[Overworld Tables#^d86726]]`
 
-
+>[!dice] Travel - The Violet Sands
+>**The Violet Sand - Dangerous Encounters**
+> `dice:[[Overworld Tables#^0fd971]]`
 
 
 

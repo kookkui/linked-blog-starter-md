@@ -5500,7 +5500,7 @@ Resting.
 <span style="color:rgb(255, 128, 31)">Day 4
 </span>
 
-Survival Check 1d%
+Survival Check 52 1d%
 [36] Passed 
 
 Heading East 
@@ -5511,11 +5511,42 @@ Checking for crafting mats 40%  1d% [11]
 Found something
 Aether Bloom (Aspect: Power)
 
-Gathering check to harvest 57 1d%
+<span style="color:rgb(152, 255, 152)">Gathering check</span> to harvest 57 1d%
 [39] 
 
 Success
 
-+1 
+<span style="color:rgb(255, 105, 180)">+1  Aether Bloom (Aspect: Power)</span>
 
+Resting 
 
+<span style="color:rgb(255, 128, 31)">Day 5</span> 
+
+<span style="color:rgb(0, 176, 240)">Survival Check</span> 52 1d%
+[17]
+Passed
+
+Continuing East 
+
+Travel Die Check nothing of note happened.
+
+**Gathering check** 40 1d%
+[36]
+
+Coal Found
+
+**Gathering check** to harvest 57 1d%
+[40] 
+
++1 Coal 
+
+Resting...
+
+<span style="color:rgb(255, 128, 31)">Day 6</span> 
+
+<span style="color:rgb(0, 176, 240)">Survival Check</span> 52 1d%
+[6] CRIT +1 to Survival Skill (Total 53)
+
+**Travel Die Check** D12 Dangerous Encounters
+
+Cactus Demon

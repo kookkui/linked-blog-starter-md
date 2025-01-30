@@ -117,22 +117,36 @@
 | 20         | A group of travelers seeking assistance in reaching and exploring the mysterious Labyrinth                                                         |
 
 
-| dice: 1d10 | d10 Travel Die                      |
-| ---------- | ----------------------------------- |
-| 1          | `dice:[[Overworld Tables#^8d63ce]]` |
-| 2          | Interesting Finds & Encounters      |
-| 3-10       | Dangerous Encounters                |
+| `dice: 1d10` | d10 Travel Die                      |
+| ------------ | ----------------------------------- |
+| 1            | `dice:[[Overworld Tables#^8d63ce]]` |
+| 2            | Interesting Finds & Encounters      |
+| 3-10         | Dangerous Encounters                |
 
 ^319324
 
 
-| dice: 1d12 | d12 Travel Die                      |
-| ---------- | ----------------------------------- |
-| 1          | `dice:[[Overworld Tables#^8d63ce]]` |
-| 2          | Interesting Finds & Encounters      |
-| 3-12       | Dangerous Encounters                |
+| `dice: 1d12` | d12 Travel Die                      |
+| ------------ | ----------------------------------- |
+| 1            | `dice:[[Overworld Tables#^8d63ce]]` |
+| 2            | Interesting Finds & Encounters      |
+| 3-12         | Dangerous Encounters                |
 
 ^a8e9b1
 
 
+| `dice: 1d20` | The Violet Sand - Dangerous Encounters |
+| ------------ | -------------------------------------- |
+| 1-10         | Bandits                                |
+| 11           | Cactus Demon                           |
+| 12           | Dust Fiend                             |
+| 13           | Dune Ravager                           |
+| 14           | Mirage Phantom                         |
+| 15           | Mirage Shifter                         |
+| 16           | Sand Creeper                           |
+| 17           | Sand Goliath                           |
+| 18           | Scorching Gazer                        |
+| 19           | Sun Reaper                             |
+| 20           | Whirlwind Wraith                       |
 
+^0fd971

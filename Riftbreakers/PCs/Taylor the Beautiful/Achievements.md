@@ -64,7 +64,7 @@ Obtain a total of 10,000 Aetheryte. regardless of its Rank. *Reward: Sell items 
 
 ---
 #### Miner
-`2/50`
+`4/50`
 Mine 50 Ore Veins. *Reward: Title -"Miner". Repeat a failed roll when attempting to find an ore vein.*
 
 ---
@@ -72,7 +72,7 @@ Mine 50 Ore Veins. *Reward: Title -"Miner". Repeat a failed roll when attempting
 - [x] Arenmist Forest
 - [ ] Bonespire Peaks
 - [x] Crystal Plains
-- [ ] The Violet Sands
+- [x] The Violet Sands
 Visit each region of Kaethor.  *Reward:100 XP* 
 
 ---
@@ -88,7 +88,7 @@ Heal other characters for a total of 1,000 Health. *Reward: Title -"Healer". Inc
 ---
 
 #### Herbalist
-`8/50`
+`12/50`
 Obtain 50 ingredients via gathering. *Reward: Title -"Herbalist". Repeat a failed roll when attempting to find ingredients.*
 
 ---
@@ -98,7 +98,7 @@ Reward: 100XP and one random magic item.
 
 ---
 #### Hero
-`2/100`
+`3/100`
 Complete 100 Quests. *Reward: Title -"Hero". Increase all quest rewards by 100%.*
 
 ---
@@ -109,7 +109,7 @@ Successfully close 20 Rifts. *Reward: Title -"Riftbane". While in a Rift. +20 at
 
 ---
 #### I Have the Power
-`4/20` 
+`7/20` 
 Unlock all 20 Abilities. 
 *Reward: Title - "Powerful". Re-roll any failed check once each 24 hours.*
 
