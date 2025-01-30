@@ -5648,3 +5648,54 @@ Going East
 **d12 Travel Die**  
 Dangerous Encounters
 
+```statblock
+creature: Mirage Phantom
+```
+
+
+**Novice - Random Enemy Rank**  
+
+Novice
+
+Combat Encounter
+
+Taylor turn
+
+Loyalty check 45 1d%
+[23] Passed 
+Opener: **Increase your next attack's damage by D4**
+
+Coordination check 70 1d%
+[29]
+
+Hit  Damage 18 
+
+Phantasmal Assault: The phantom attacks its target with a 
+barrage of ghostly strikes, dealing D6+2 Necrotic damage.
+
+The monster targets the character that attacked them most recently. If none, determine randomly (Segard)
+
+Segard dodge check 60 1d%
+[28]
+Dodged
+
+Segard turn
+
+Heals D6 Health. If at max Health, they perform a standard attack
+
+Brawn Check  60 1d%
+[39]
+
+Hit!  6 Damage
+
+Taylor Turn 
+
+Coordination Check 70 1d%
+[69] Nice
+
+7 Damage  
+
+<span style="color:rgb(255, 105, 180)">Victory! </span> 
++25 XP
++50⟑
+

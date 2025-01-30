@@ -93,7 +93,7 @@ Title9: Lantern
 Title10: Aetheryte
 Title11: "Stoneskin Potion. For the next hour you have +1 Armor, but your Dodge and Acrobatics skills are reduced by -10. Aspects: Stone, Boon"
 Title12: Aetheryte
-a-N: "305"
+a-N: "355"
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -106,8 +106,8 @@ a-N: "305"
 >>  **Title** |`INPUT[text:Title]` |
 >> **Reputation** | `3` |
 >>  **HP** | `32` /32
->> **Aether** | `27` /31 |
->> **Stamina** | `25` /29 |
+>> **Aether** | `31` /31 |
+>> **Stamina** | `29` /29 |
 >> **Armor** | <span style="color:rgb(255, 128, 31)">D4+3</span>  |
 >> **XP** | `VIEW[{xp}][text]`
 >>**ADD XP :** `INPUT[number:axp]` `BUTTON[exp]`

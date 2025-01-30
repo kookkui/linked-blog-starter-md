@@ -21,7 +21,7 @@ INPUT[progressBar(class(green-progress-bar), maxValue(32), title(HP)):CompanionH
 ### Standard Attack: D8+2
 ### Companion Level: 1
 #### Quest Completed
-`1/5`
+`2/5`
 
 | Strength         | 14  | Brawn            | 70  | **Max Health** |  32   |
 | ---------------- |:---:| ---------------- |:---:|:--------------:|:-----:|
