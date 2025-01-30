@@ -1,5 +1,5 @@
 ---
-Exterminator: 61
+Exterminator: 62
 money: "600"
 ---
 #### Adventurer 
@@ -24,7 +24,7 @@ money: "600"
 
 ---
 #### Pest Control
-`61/100`
+`62/100`
 Defeat 100 Monsters. *Reward: 100 XP, 100 A And one magic item.*
 
 ---
@@ -40,7 +40,7 @@ Defeat one monster of each type.
 - [x] Animal
 - [x] Astral
 - [x] Plant
-- [ ] Demon
+- [x] Demon
 - [x] Elemental
 - [x] Undead
 - [x] Humanoid

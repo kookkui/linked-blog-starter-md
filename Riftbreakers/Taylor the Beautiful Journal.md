@@ -5553,3 +5553,72 @@ Resting...
 ```statblock
 creature: Cactus Demon
 ```
+
+
+**Novice - Random Enemy Rank**  
+Novice
+
+<span style="color:rgb(255, 178, 208)">Combat Encounter</span> 
+
+Taylor Turn
+
+Loyalty check 45 1d%
+[47] Failed
+
+Casting Bless -4 Mp
+<span style="color:rgb(255, 255, 184)">"Increase a target’s Brawn by +20 and Dodge by +10 for D4+2 rounds."</span>
+3 Turns Segard is buffed 
+
+`clock: 1/3`
+
+Cactus Demon Turn
+
+Poisonous Thorns: The cactus demon launches a barrage 
+of thorns at a target within 20 m, dealing 2D6 Piercing 
+damage and potentially poisoning the target. The target 
+must make a Vitality check or take D6 Poison damage each 
+round for the next 3 rounds.
+
+The monster targets the nearest character. If the potential targets are placed at the same distance, determine randomly (Taylor)
+
+Taylor Dodge check 75 1d%
+[8] 
+
+Dodged!
+
+Segard Turn
+
+Performs a standard attack with their weapon. If successful, they perform a secondary free attack with their shield that deals D6 damage 8 All targets within a 20 m. range are forced to attack this Companion until their next turn
+
+Brawn Check 70+20 1d%
+[48]
+
+48 Hit
+
+8 Damage 
+
+
+Taylor Turn
+
+Twin Shot Skill  Coordination 80 - 10
+1d%
+[28]
+1d%
+[44]
+
+CRIT on the second hit
+
+9 Damage and 15 x 2 Damage = 39 Damage!!
+
+<span style="color:rgb(255, 105, 180)">Victory!! </span>
++25 XP 
+ Completed Master Hunter Achievement
+
+  Reward  Reward:100 XP. 100 A
+
+1d%[38]
+
+ 10 units of a Random Alchemical Ingredients
+
+<span style="color:rgb(255, 178, 208)">+10 Blackroot (Aspect: Dark)</span>
+

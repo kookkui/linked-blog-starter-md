@@ -46,8 +46,8 @@ Gold: 0
 Platinum: 0
 exampleProperty: Apprentice
 Title: Protector of Kar Helos
-axp: 
-xp: 1450
+axp: 100
+xp: 1575
 Ring1: |
   Name: Champion's Ring of the Snake
   Magic: Dexterity +1, Reduce your Stamina pool by 5 (26), but increase your Aether pool by 8 (23). You no longer need to eat or drink.
@@ -93,6 +93,7 @@ Title9: Lantern
 Title10: Aetheryte
 Title11: "Stoneskin Potion. For the next hour you have +1 Armor, but your Dodge and Acrobatics skills are reduced by -10. Aspects: Stone, Boon"
 Title12: Aetheryte
+a-N: "305"
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -105,8 +106,8 @@ Title12: Aetheryte
 >>  **Title** |`INPUT[text:Title]` |
 >> **Reputation** | `3` |
 >>  **HP** | `32` /32
->> **Aether** | `31` /31 |
->> **Stamina** | `29` /29 |
+>> **Aether** | `27` /31 |
+>> **Stamina** | `25` /29 |
 >> **Armor** | <span style="color:rgb(255, 128, 31)">D4+3</span>  |
 >> **XP** | `VIEW[{xp}][text]`
 >>**ADD XP :** `INPUT[number:axp]` `BUTTON[exp]`
@@ -122,7 +123,7 @@ Title12: Aetheryte
 >> ###### Crafting Aspects
 >>| Air   | Bane | Boon | Chaos | Dark  | Death |
 >>| ----- | ---- | ---- | ----- | ----- | ----- |
->>| `0`   | `0`  | `1`  | `10`   | `11`   | `1`   |
+>>| `0`   | `0`  | `1`  | `10`   | `21`   | `1`   |
 >>| Earth | Fire | Life | Light | Power | Water |
 >| `1`   | `11`  | `0`  | `10`   | `11`   | `10`   |
 >>###### Minerals
@@ -131,9 +132,11 @@ Title12: Aetheryte
 >>| ---- | ---- | ------ | ------ |
 >>| `21`  | `2`  | `1`    | `4`    |
 >>  ###### Currency
->>| **⟑-N**         | **⟑-A**         | **⟑-V**         | **⟑-M**         |
->>| -------------- | -------------- | ------------ | ---------------- |
->>| 205 | 0 | 0 | 0 |
+>>| **⟑-N** | **⟑-A**   |
+>>| ------- | --------- |
+>>|`INPUT[text:a-N]`|`INPUT[text:a-a]`|
+>>| **⟑-V** | **⟑-M**   |
+>>|`INPUT[text:a-v]`|`INPUT[text:a-m]`|
 >
 >
 >>[!infobox] %%FAKE TITLE HERE%%
