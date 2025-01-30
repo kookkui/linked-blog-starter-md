@@ -5,37 +5,23 @@ Level: 0
 Corruption: 0
 Prof: 
 HP: 0
-HitDice: d0
-Speed: 0
+GeSl: 0
 STR: 0
 DEX: 0
 CONST: 0
+WIL: 0
 INT: 0
-WIS: 0
 CHA: 0
-Race: RaceName
-Alignment: NONE
-Gender: GenderName
-Age: "0"
+Weapon1: Placeholder
+Weapon1dmg: 69
+Weapon1notes: Its badass
+Weapon2: Placeholder
+Weapon2dmg: 69
+Weapon2notes: Its badass
+Weapon3: Placeholder
+Weapon3dmg: 69
+Weapon3notes: Its badass
 Armor: 0
-Class: ClassName
-Subclass: SubClassName
-AssociatedGroup: NONE
-Likes: NONE
-Dislikes: NONE
-Pronouns: NONE
-PersonalityTrait:
-  - NONE
-SocialTrait:
-  - NONE
-MentalTrait:
-  - NONE
-Proficiencies:
-  - NONE
-Resistances:
-  - NONE
-Languages:
-  - NONE
 DmgTkn: 0
 TempHP: 0
 Currency: 0
@@ -47,22 +33,22 @@ exampleProperty: Apprentice
 >> # `=this.file.name`
 >> ![[Character Image Placeholder]]
 >> ###### Stats
->>  |
+>> |
 >> ---|---|
 >> **Level** |`=this.level` |
->>  **HP** | `=this.HP - this.DmgTkn + this.TempHP`
+>> **HP** | `=this.HP - this.DmgTkn + this.TempHP`
 >> **Corruption** | `0` `=this.Corruption` |
->> **Armor** | `=this.Armor`  |
+>> **Armor** | `=this.Armor` |
 >> **XP** | `VIEW[{xp}][text]`
 >>
 >> ###### Weapons
->>| **Weapons** | **Type** | **Damage** | **Notes** |
->>| ---------------------- | ---------------- | --------------- | ------------- |
->>| Broad Sword (mastery)  | 2                | 3/2             | +2              |
->>| Dagger                 | 1                | 1/1             | +1              |
->>|Hand Axe               | 1                | 1/1             | +1              |
->>|                        |                  |                 |                 |
->>|                        |                  |                 |                 |
+>>| **Weapons** | **Damage** | **Notes** |
+>>| ---------------------- | --------------- | ------------- |
+>>| `=this.Weapon1` | `=this.Weapon1dmg` | `=this.Weapon1notes` |
+>>| `=this.Weapon2` | `=this.Weapon2dmg` | `=this.Weapon2notes` |
+>>| `=this.Weapon3` | `=this.Weapon3dmg` | `=this.Weapon3notes` |
+>>| | | |
+>>| | | |
 >>  ###### Currency
 >>  | 
 >>---|---|
@@ -76,111 +62,114 @@ exampleProperty: Apprentice
 >> ### Stats
 >> |        |         |   
 >>| ---- | ---- |
->>| **Dexterity**    | 0 | 
->>| **Constitution** | 0 |
->>| **Will**         | 0 | 
->>| **Intelligence** | 0 | 
->>| **Charisma**     | 0 | 
->>| **STR Damage**   |   | 
->>| **Luck**        | 0 |  **WIL Damage**  | +1 |
->>|     **Speed**   | 15/30| **Persistence** | 65|
+>>| **Strength**   | `=this.STR`  |
+>>| **Dexterity**    | `=this.DEX` | 
+>>| **Constitution** | `=this.CONST` |
+>>| **Will**         |  `=this.WIL` | 
+>>| **Intelligence** |  `=this.INT` | 
+>>| **Charisma**     | `=this.CHA` | 
+>>| **Max Gear Slots**     | `=this.GeSl` | 
 >> ### Skill Checks
->>| **Skill Name**                | **Skill Level** |
+>>| **Skill Name** | **Skill Level** |
 >>| ------------------------- | ----------- |
->>| **Alchemy** (INT)         | `0`           |
->>| **Acrobatics** (DEX)      | `0`           |
->>| **Animal Handling** (CHA) | `0`           |
->>| **Athletics** (STR)       | `0`           |
->>| **Blacksmithing** (DEX)   | `0`           |
->>| **Command** (CHA)         | `0`           |
->>| **Gathering** (DEX)       | `0`           |
->>|**Nature** (INT)          | `0`           |
->>| **Manipulation** (CHA)    | `0`           |
->>| **Medicine** (INT)        | `0`           |
->>| **Leatherworking** (DEX)  | `0`           |
->>| **Insight** (WIL)         | `0`           |
->>| **Dodge** (DEX)           | `0`           |
->>| **Perception** (WIL)      | `0`           |
->>| **Performance** (CHA)     | `0`           |
->>| **Sailing** (DEX)         | `0`           |
->>| **Sleight of Hand** (DEX) | `0`           |
->>| **Stealth** (DEX)         | `0`           |
->>| **Survival** (INT)        | `0`           |
+>>| **Alchemy** | `0` |
+>>| **Animal Handling** (CHA) | `0` |
+>>| **Command Skills** (CHA) | `0` |
+>>| **Crafting** (DEX) | `0` |
+>>| **Disguise** (DEX) | `0` |
+>>| **Dodge** (DEX x 2) | `0` |
+>>|**First Aid** (20) | `0` |
+>>| **Forbidden Lore** | `0` |
+>>| **Herb Lore** | `0` |
+>>| **Literacy** (INT) | `0` |
+>>| **One-Handed Melee** (STR + DEX) | `0` |
+>>| **Orientation** (20) | `0` |
+>>|**Outdoor Survival** (INT + DEX) | `0` |
+>>| **Parry** (STR + DEX) | `0` |
+>>| **Perception** (20) | `0` |
+>>| **Persuasion** (CHA) | `0` |
+>>| **Pick Pockets** (DEX) | `0` |
+>>| **Ranged Weapons** (DEX x 2) | `0` |
+>>| **Sailing** (DEX) | `0` |
+>>| **Sneaking** (DEX x 2) | `0` |
+>>| **Throw** (STR + DEX) | `0` |
+>>| **Tracking** (INT) | `0` |
+>>| **Traditional Lore** (20) | `0` |
+>>| **Two-Handed Melee** (STR x 2) | `0` |
+>>| **Unarmed** (STR + DEX) | `0` |
+>>
+>>
+>> ### Passive Skills
+>>| 1 | `INPUT[text:Pskills69]` |
+>>| :-: | :----------------------------------------------------------------------------------------------------------------------------------- |
+>>| 2 | `INPUT[text:Pskills1]` |
+>>| 3 | `INPUT[text:Pskills2]` |
+>>| 4 | `INPUT[text:Pskills3]` |
+>>| 5 | `INPUT[text:Pskills4]` |
+>>| 6 |`INPUT[text:Pskills5]` |
+>>| 7 | `INPUT[text:Pskills6]` |
+>>| 8 | `INPUT[text:Pskills7]` |
+>>| 9 | `INPUT[text:Pskills8]` |
+>>| 10 | `INPUT[text:Pskills9]` |
+>>| 11 | `INPUT[text:Pskills10]` |
+>>| 12 | `INPUT[text:Pskills11]` |
+>>| 13 | `INPUT[text:Pskills12]` |
+>>| 14 | `INPUT[text:Pskills13]` |
+>>| 15 | `INPUT[text:Pskills14]` |
+>>| 16 | `INPUT[text:Pskills1416]` |
+>>| 17 | `INPUT[text:Pskills1417]` |
+>>| 18 | `INPUT[text:Pskills1418]`
+>
+>>[!important] %%FAKE TITLE HERE%%
+>>##### Archetypes
+>>`INPUT[textArea:Head]`
+>>##### Notes
+>>`INPUT[textArea:Other]`
 >
 >>[!table] %%FAKE TITLE HERE%%
 >> ### Inventory
->>|  1  | `INPUT[text:Title69]`                                                                                                                             |
+>>| Slot |  | Equiped
 >>| :-: | :----------------------------------------------------------------------------------------------------------------------------------- |
->>|  2  | `INPUT[text:Title1]`                                                                                                                  |
->>|  3  | `INPUT[text:Title2]`                                                                                                                   |
->>|  4  | `INPUT[text:Title3]`                                                                                                                  |
->>|  5  | `INPUT[text:Title4]`                                                                                                                   |
->>|  6  |`INPUT[text:Title5]`                                                                                                                  |
->>|  7  | `INPUT[text:Title6]`                                                                                                                   |
->>|  8  | `INPUT[text:Title7]`                                                                                                           |
->>|  9  | `INPUT[text:Title8]`                                                                                                             |
->>| 10  | `INPUT[text:Title9]`                                                                                                                |
->>| 11  | `INPUT[text:Title10]`                                                                                                                 |
->>| 12  | `INPUT[text:Title11]`                                                                                                             |
->>| 13  | `INPUT[text:Title12]`                                                                        |
->>| 14  | `INPUT[text:Title13]`                                                                                                             |
->>| 15  |  `INPUT[text:Title14]`                                                                                                                |
->>| 16  |  `INPUT[text:Title1416]`                                                                                                                |
->>| 17  |  `INPUT[text:Title1417]`                                                                                                                   |
->>| 18  |   `INPUT[text:Title1418]`                                                                                                                   |
->>| 19  |    `INPUT[text:Title1419]`                                                                                                                 |
->>| 20  |    `INPUT[text:Title1420]`                                                                                                                 |
->>| 21  |    `INPUT[text:Title1421]`                                                                                                                |
->>| 22  |     `INPUT[text:Title1422]`                                                                                                                   |
->>| 23  |      `INPUT[text:Title143]`                                                                                                                               |
->>| 24  |    `INPUT[text:Title1424]`                                                                                                                                  |
->>| 25  |   `INPUT[text:Title1425]`                                                                                                                                  |
->>| 26  |   `INPUT[text:Title1426]`                                                                                                                                   |
->>| 27  |   `INPUT[text:Title1427]`                                                                                                                                   |
->>| 28  |    `INPUT[text:Title1428]`                                                                                                                                  |
->>| 29  |    `INPUT[text:Title1431]`                                                                                                                                  |
->>| 30  |    `INPUT[text:Title1430]`                                                                                                                                 |
->>| 31  |    `INPUT[text:Title1432]`                                                                                                                                  |
->>| 32  |   `INPUT[text:Title1433]`                                                                                                                                   |
->>| 33  |    `INPUT[text:Title1434]`                                                                                                                                  |
->>| 34  |    `INPUT[text:Title1435]`                                                                                                                                  |
->>| 35  |    `INPUT[text:Title1436]`                                                                                                                                  |
->>| 36  |    `INPUT[text:Title1437]`                                                                                                                                  |
->>| 37  |     `INPUT[text:Title1438]`                                                                                                                                 |
->>| 38  |     `INPUT[text:Title1439]`                                                                                                                                 |
->>| 39  |       `INPUT[text:Title1440]`                                                                                                                               |
->>| 40  |         `INPUT[text:Title1441]`                                                                                                         
-
->[!seealso] %%FAKE TITLE HERE%%
->>[!important] %%FAKE TITLE HERE%%
->> ### Gear
->>##### Head
->>`INPUT[textArea:Head]`
->>##### Chest
->>`INPUT[textArea:Chest]`
->>##### Belt
->>`INPUT[textArea:Belt]`
->>##### Pants
->>`INPUT[textArea:Pant]`
->>##### Boots
->>`INPUT[textArea:Boots]`
->>##### Gloves
->>`INPUT[textArea:Gloves]`
->>##### Ring 1
->>`INPUT[textArea:Ring1]`
->>##### Ring 2
->>`INPUT[textArea:Ring2]`
->>##### Pendant
->>`INPUT[textArea:Pendant]`
->>##### Other
->>`INPUT[textArea:Other]`
-
-
-
-
-
-
-
+>>| 1 | `INPUT[text:Title69]` |
+>>| 2 | `INPUT[text:Title1]` |
+>>| 3 | `INPUT[text:Title2]` |
+>>| 4 | `INPUT[text:Title3]` |
+>>| 5 | `INPUT[text:Title4]` |
+>>| 6 |`INPUT[text:Title5]` |
+>>| 7 | `INPUT[text:Title6]` |
+>>| 8 | `INPUT[text:Title7]` |
+>>| 9 | `INPUT[text:Title8]` |
+>>| 10 | `INPUT[text:Title9]` |
+>>| 11 | `INPUT[text:Title10]` |
+>>| 12 | `INPUT[text:Title11]` |
+>>| 13 | `INPUT[text:Title12]` |
+>>| 14 | `INPUT[text:Title13]` |
+>>| 15 | `INPUT[text:Title14]` |
+>>| 16 | `INPUT[text:Title1416]` |
+>>| 17 | `INPUT[text:Title1417]` |
+>>| 18 | `INPUT[text:Title1418]` |
+>>| 19 | `INPUT[text:Title1419]` |
+>>| 20 | `INPUT[text:Title1420]` |
+>>| 21 | `INPUT[text:Title1421]` |
+>>| 22 | `INPUT[text:Title1422]` |
+>>| 23 | `INPUT[text:Title143]` |
+>>| 24 | `INPUT[text:Title1424]` |
+>>| 25 | `INPUT[text:Title1425]` |
+>>| 26 | `INPUT[text:Title1426]` |
+>>| 27 | `INPUT[text:Title1427]` |
+>>| 28 | `INPUT[text:Title1428]` |
+>>| 29 | `INPUT[text:Title1431]` |
+>>| 30 | `INPUT[text:Title1430]` |
+>>| 31 | `INPUT[text:Title1432]` |
+>>| 32 | `INPUT[text:Title1433]` |
+>>| 33 | `INPUT[text:Title1434]` |
+>>| 34 | `INPUT[text:Title1435]` |
+>>| 35 | `INPUT[text:Title1436]` |
+>>| 36 | `INPUT[text:Title1437]` |
+>>| 37 | `INPUT[text:Title1438]` |
+>>| 38 | `INPUT[text:Title1439]` |
+>>| 39 | `INPUT[text:Title1440]` |
+>>| 40 | `INPUT[text:Title1441]`                                                                                                
 
 ```meta-bind-button
 label: Add
