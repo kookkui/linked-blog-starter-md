@@ -5550,3 +5550,6 @@ Resting...
 **Travel Die Check** D12 Dangerous Encounters
 
 
+```statblock
+creature: Cactus Demon
+```
