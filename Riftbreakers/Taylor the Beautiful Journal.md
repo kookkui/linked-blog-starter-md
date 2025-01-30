@@ -5569,7 +5569,7 @@ Casting Bless -4 Mp
 <span style="color:rgb(255, 255, 184)">"Increase a target’s Brawn by +20 and Dodge by +10 for D4+2 rounds."</span>
 3 Turns Segard is buffed 
 
-`clock: 1/3`
+`clock: 3/3`
 
 Cactus Demon Turn
 
@@ -5614,11 +5614,37 @@ CRIT on the second hit
 +25 XP 
  Completed Master Hunter Achievement
 
-  Reward  Reward:100 XP. 100 A
+  Reward  Reward:100 XP  100 A
 
 1d%[38]
 
  10 units of a Random Alchemical Ingredients
 
 <span style="color:rgb(255, 178, 208)">+10 Blackroot (Aspect: Dark)</span>
+
+**Gathering check** Mineral 30 1d%
+[10]
+Found something 
+**Gathering - Type of Mineral Deposit Found**  
+Iron
+
+**Gathering check** 57 1d%
+[43] 
+
+Passed
+
++1 Iron
+
+<span style="color:rgb(144, 0, 255)">Resting...</span>
+
+<span style="color:rgb(255, 128, 31)">Day 7</span> 
+**Survival Check** 53 1d%
+[34]
+Passed
+
+Going East
+
+**Travel Die Check** 
+**d12 Travel Die**  
+Dangerous Encounters
 
