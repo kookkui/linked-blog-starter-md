@@ -20,7 +20,6 @@ INPUT[multiSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade),
 ```
 ### Passives
 `INPUT[textArea:passives]`
-
 ## Heart Abilities
 
 | Ability Name | Life Bolt  | Type  | Holy, Attack, Support |
@@ -38,7 +37,6 @@ Description: Target is healed for D6+DM Health. If the target is undead, it deal
 
 ---
 
-
 | **Ability Name** | Twin Shots | **Type**  | Martial, Attack |
 | ---------------- | ---------- | --------- | --------------- |
 | **Rank**         | Novice     | **XP**    |                 |
@@ -51,7 +49,6 @@ Description: You can perform two ranged attacks with a single Standard Action ag
 **Master Rank:** Attacks receive +10 to their check
 
 *You let loose two shots in quick succession, trusting your skill over any careful aiming.*
-
 
 ---
 
@@ -66,7 +63,6 @@ Blind, Dazed, Freezing, Paralyzed, Slowed, Sleep or Stunned from a single target
 **Veteran Rank:** Removes all physical conditions from the target
 
 *With your divine power you pull the poison out from the target, turning it into ash once outside their body.*
-
 
 ---
 

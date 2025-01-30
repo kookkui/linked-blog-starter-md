@@ -30,8 +30,9 @@ SocialTrait:
   - NONE
 MentalTrait:
   - NONE
-Proficiencies:
-  - NONE
+Proficiencies: |-
+  Weapons: Longbow, Scimitar
+  Armor: Soft Leather
 Resistances:
   - NONE
 Languages:
@@ -44,11 +45,59 @@ Electrum: 0
 Gold: 0
 Platinum: 0
 exampleProperty: Apprentice
+Title: Protector of Kar Helos
+axp: 
+xp: 1450
+Ring1: |
+  Name: Champion's Ring of the Snake
+  Magic: Dexterity +1, Reduce your Stamina pool by 5 (26), but increase your Aether pool by 8 (23). You no longer need to eat or drink.
+  Aspects: Air Life 2x Boon Bane 
+  Quirk: It's always pristine
+  Value: 300A
+Ring2: |
+  Name: Mage's Wonderful Ring 
+  Magic: Stamina +4, Stamina +4, On command, this item works as a source of light. Illuminates in a 20 m. radius.
+  Value: 300A
+  Aspects: Fire 2xPower Light 
+  Quirk: It's always covered in a layer of mucus
+Gloves: |-
+  Name: Victorious Gloves of the Whisper 
+  Aspects: Air Earth 
+  Magic: Constitution +1 Charisma +1
+  Rarity: Uncommon
+  Rank: Novice
+  Object: Gloves
+  Value: 200A 
+  Quirk: Smells like rotten flesh
+Other: |-
+  Name: Knight's Glass Stone
+  Magic: You can detect all living beings in a 20 m. radius. 
+  Increase your luck by +5
+  Rarity: Uncommon
+  Rank: Novice
+  Object: Other
+  Identified
+  Value: 200A
+  Aspects: Chaos Life Boon Light
+  Quirk: It appears to be completely made of glass. It doesn't make it more fragile than it should be though
+Title69: Backpack
+Title1: Quiver
+Title2: Torch Ud10
+Title3: Bandage Ud12
+Title4: Arrows Ud12
+Title5: Rations x 2
+Title6: Rough Leather x 10
+Title7: Extra-Dimensional bag x 0
+Title8: Ascended Essence (Prime)
+Title9: Lantern
+Title10: Aetheryte
+Title11: "Stoneskin Potion. For the next hour you have +1 Armor, but your Dodge and Acrobatics skills are reduced by -10. Aspects: Stone, Boon"
+Title12: Aetheryte
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
 >> # `=this.file.name`
->> ![[Character Image Placeholder]]
+>> ![[IMG-20250129190024669.webp]]
 >> ###### Stats
 >>  |
 >> ---|---|
@@ -58,68 +107,72 @@ exampleProperty: Apprentice
 >>  **HP** | `32` /32
 >> **Aether** | `31` /31 |
 >> **Stamina** | `29` /29 |
->> **Armor** | D4+3  |
+>> **Armor** | <span style="color:rgb(255, 128, 31)">D4+3</span>  |
 >> **XP** | `VIEW[{xp}][text]`
+>>**ADD XP :** `INPUT[number:axp]` `BUTTON[exp]`
 >>
 >> ###### Weapons
 >>| **Weapons** | **Type** | **Damage** | **Notes** |
 >>| ---------------------- | ---------------- | --------------- | ------------- |
->>| Broad Sword (mastery)  | 2                | 3/2             | +2              |
->>| Dagger                 | 1                | 1/1             | +1              |
->>|Hand Axe               | 1                | 1/1             | +1              |
+>>| Holy Longbow of the Bear  | Piercing                |2D6+4           | Two-handed, Holy, Arrows UD12, Range 115 m              |
+>>| Scimitar                 | Slashing                |      D8+4        | Parry, Finesse            |
+>>|            |             |            |               |
 >>|                        |                  |                 |                 |
 >>|                        |                  |                 |                 |
 >> ###### Crafting Aspects
 >>| Air   | Bane | Boon | Chaos | Dark  | Death |
 >>| ----- | ---- | ---- | ----- | ----- | ----- |
->>| `0`   | `0`  | `0`  | `0`   | `0`   | `0`   |
+>>| `0`   | `0`  | `1`  | `10`   | `11`   | `1`   |
 >>| Earth | Fire | Life | Light | Power | Water |
->| `0`   | `0`  | `0`  | `0`   | `0`   | `0`   |
+>| `1`   | `11`  | `0`  | `10`   | `10`   | `10`   |
 >>###### Minerals
 >>
 >>| Coal | Iron | Silver | Aglite |
 >>| ---- | ---- | ------ | ------ |
->>| `0`  | `0`  | `0`    | `0`    |
+>>| `20`  | `2`  | `1`    | `4`    |
 >>  ###### Currency
 >>| **⟑-N**         | **⟑-A**         | **⟑-V**         | **⟑-M**         |
 >>| -------------- | -------------- | ------------ | ---------------- |
->>| 0 | 0 | 0 | 0 |
+>>| 205 | 0 | 0 | 0 |
+>
 >
 >>[!infobox] %%FAKE TITLE HERE%%
 >> ### Stats
 >> |        |         |            |            |
 >>| ---- | ---- | ------ | ------ |
->>| **Strength**     | 0 | **Brawn**        | 0 |
->>| **Dexterity**    | 0 | **Coordination** | 0 |
->>| **Constitution** | 0 | **Vitality**     | 0 |
->>| **Will**         | 0 | **Tenacity**     |0|
->>| **Intelligence** | 0 | **Intellect**    | 0 |
->>| **Charisma**     | 0 | **Charm**        | 0 |
+>>| **Strength**     | 10 | **Brawn**        | 50 |
+>>| **Dexterity**    | 16 | **Coordination** | 80 |
+>>| **Constitution** | 18 | **Vitality**     | 90 |
+>>| **Will**         | 12 | **Tenacity**     |60|
+>>| **Intelligence** | 11 | **Intellect**    | 55 |
+>>| **Charisma**     | 14 | **Charm**        | 70 |
 >>| **STR Damage**   |   | **DEX Damage**   |+4  |
->>| **Luck**        | 0 |  **WIL Damage**  | +1 |
+>>| **Luck**        | 5 |  **WIL Damage**  | +1 |
 >>|     **Speed**   | 15/30| **Persistence** | 65|
 >> ### Skill Checks
 >>| **Skill Name**                | **Skill Level** |
 >>| ------------------------- | ----------- |
->>| **Alchemy** (INT)         | `0`           |
->>| **Acrobatics** (DEX)      | `0`           |
->>| **Animal Handling** (CHA) | `0`           |
->>| **Athletics** (STR)       | `0`           |
->>| **Blacksmithing** (DEX)   | `0`           |
->>| **Command** (CHA)         | `0`           |
->>| **Gathering** (DEX)       | `0`           |
->>|**Nature** (INT)          | `0`           |
->>| **Manipulation** (CHA)    | `0`           |
->>| **Medicine** (INT)        | `0`           |
->>| **Leatherworking** (DEX)  | `0`           |
->>| **Insight** (WIL)         | `0`           |
->>| **Dodge** (DEX)           | `0`           |
->>| **Perception** (WIL)      | `0`           |
->>| **Performance** (CHA)     | `0`           |
->>| **Sailing** (DEX)         | `0`           |
->>| **Sleight of Hand** (DEX) | `0`           |
->>| **Stealth** (DEX)         | `0`           |
->>| **Survival** (INT)        | `0`           |
+>>| **Alchemy** (INT)         | `34`           |
+>>| **Acrobatics** (DEX)      | `15`           |
+>>| **Animal Handling** (CHA) | `14`           |
+>>| **Athletics** (STR)       | `33`           |
+>>| **Blacksmithing** (DEX)   | `35`           |
+>>| **Command** (CHA)         | `14`           |
+>>| **Gathering** (DEX)       | `57`           |
+>>|**Nature** (INT)          | `31`           |
+>>| **Manipulation** (CHA)    | `14`           |
+>>| **Medicine** (INT)        | `11`           |
+>>| **Leatherworking** (DEX)  | `38`           |
+>>| **Insight** (WIL)         | `15`           |
+>>| **Dodge** (DEX)           | `75`           |
+>>| **Perception** (WIL)      | `32`           |
+>>| **Performance** (CHA)     | `14`           |
+>>| **Sailing** (DEX)         | `15`           |
+>>| **Sleight of Hand** (DEX) | `25`           |
+>>| **Stealth** (DEX)         | `38`           |
+>>| **Survival** (INT)        | `52`           |
+>>##### Proficiencies
+>>`INPUT[textArea:Proficiencies]`
 >
 >>[!table] %%FAKE TITLE HERE%%
 >> ### Inventory
@@ -163,7 +216,7 @@ exampleProperty: Apprentice
 >>| 37  |     `INPUT[text:Title1438]`                                                                                                                                 |
 >>| 38  |     `INPUT[text:Title1439]`                                                                                                                                 |
 >>| 39  |       `INPUT[text:Title1440]`                                                                                                                               |
->>| 40  |         `INPUT[text:Title1441]`                                                                                                         
+>>| 40  |         `INPUT[text:Title1441]`                                                                                                                                                                       
 
 >[!seealso] %%FAKE TITLE HERE%%
 >>[!important] %%FAKE TITLE HERE%%

@@ -5507,6 +5507,15 @@ Heading East
 
 Travel Die 5 nothing of note happened.
 
+Checking for crafting mats 40%  1d% [11]
+Found something
+Aether Bloom (Aspect: Power)
 
+Gathering check to harvest 57 1d%
+[39] 
+
+Success
+
++1 
 
 
