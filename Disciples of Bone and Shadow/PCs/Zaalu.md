@@ -1,9 +1,7 @@
 ---
-Type: Player
 Art: "![[Character Image Placholder]]"
 Level: 0
 Corruption: 0
-Prof: 
 HP: 0
 GeSl: 0
 STR: 0
@@ -26,7 +24,6 @@ DmgTkn: 0
 TempHP: 0
 Currency: 0
 Provisions: 0
-exampleProperty: Apprentice
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -188,4 +185,3 @@ actions:
   value: getMetadata('xp') + getMetadata('axp')
 
 ```
-
