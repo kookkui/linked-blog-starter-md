@@ -45,7 +45,7 @@ archetype0: "**Hunter**: Foraging, Marksmanship"
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
 >> # `=this.file.name`
->> ![[IMG-20250130195322893.webp]]
+>> ![[Zaalu_non_AI.webp]]
 >> ###### Stats
 >>|     |     |
 >> |--- | --- |
