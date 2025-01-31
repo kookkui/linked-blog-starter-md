@@ -8,9 +8,7 @@
 		{"id":"33fb9b9e97850b7c","type":"file","file":"Remote-SoloRPGs/Disciples of Bone and Shadow/PCs/Zaalu.md","x":2260,"y":-1740,"width":1391,"height":1580},
 		{"id":"1efb5ab6118af275","type":"file","file":"Remote-SoloRPGs/Disciples of Bone and Shadow/PCs/Zaalu Alchemy Sheet.md","x":2260,"y":-130,"width":1391,"height":1650},
 		{"id":"ef46e2344decac8d","type":"file","file":"Remote-SoloRPGs/Disciples of Bone and Shadow/Zaalu's Journal.md","x":3840,"y":-1740,"width":1520,"height":3300},
-		{"id":"d9c075c615d715ed","x":-240,"y":2520,"width":1900,"height":1560,"type":"file","file":"Remote-SoloRPGs/Disciples of Bone and Shadow/DoBS Rules Reference/Character Advancement.md"}
+		{"id":"d9c075c615d715ed","type":"file","file":"Remote-SoloRPGs/Disciples of Bone and Shadow/DoBS Rules Reference/Character Advancement.md","x":20,"y":-60,"width":1900,"height":1560}
 	],
-	"edges":[
-		{"id":"88590e7c179360dd","fromNode":"3ec65df64bca289d","fromSide":"bottom","toNode":"d9c075c615d715ed","toSide":"top"}
-	]
+	"edges":[]
 }
