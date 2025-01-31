@@ -2,11 +2,11 @@
 > **Terrain Type**
 >`dice:[[DBS Tables#^84401e]]`
 >
->**Travel Complications**
->`dice:[[DBS Tables#^442cac]]`
+>**Akkar Strand Hex Exploration**
+>`dice:[[]]`
 >
->**Rift Monster Rank**
->`dice:[[General Tables#^c162ae]]`
+>**Madari Hex Exploration**
+>`dice:[[DBS Tables#^442cac]]`
 >
 >**Travel Complications**
 >`dice:[[DBS Tables#^442cac]]`
