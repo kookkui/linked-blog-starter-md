@@ -9,8 +9,6 @@
 | 6         | Whiteteeth Mountains |
 
 
-
-
 | `dice:D20` | Madari Hex Exploration                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1-5        | `dice:[[DBS Exploration Tables#^14a8cd]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -26,6 +24,8 @@
 | 18         | **Burial Mound**. A single, imposing burial mound stands in front of you, with a tunnel allowing you to access it. Upon closer inspection, it is clear the tunnel was dug from the inside out, and once inside your suspicions are confirmed as you find no corpse whatsoever. Instead, you find a single, dead raven, placed where the corpse once was, its wings spread wide. You also find several almost worthless little gems and amulets, for a total of 50 jats                                                                                                                                   |
 | 19         | **Travelers**. A group of travelers is ahead in the road, their belongings hauled on the back of overworked horses and donkeys. One of them notices you and warns the others, who stand and stare at you with suspicion. They have nothing to share but their story: a great beast came and destroyed their little house, which was the last straw for the family elder, who decided the family would find a better fortune in the streets of Madari                                                                                                                                                     |
 | 20         | **Rift**. As you advance through this quiet and gloomy land, dark thoughts in your mind, a sudden burst of light startles you. A few feet away the air seems to be shimmering with a bright but at the same time dark light; as the light spreads, advancing in a way that reminds you of blood seeping from an open wound, a set of monstrous tentacles burst from within it, attempting to grab you. You must succeed at 3 DEX test; for each one you fail you are dragged closer to the rift, which closes after 5 attempts, the tentacles disappearing on the other side with you or without you     |
+
+^f7274d
 
 
 | `dice:D100` | Madari Encounters                      |
@@ -51,7 +51,7 @@
 
 | `dice:D20` | Akkar Strand Hex Exploration                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-5        | Encounter. Roll on the Akkar Strand Encounter table                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 1-5        | `dice:[[DBS Exploration Tables#^d77bd6]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | 6-7        | **Cave**. A half-visible trail leads the party to a seemingly natural cave. If the party decides to explore it, use the Indoor Location generation rules                                                                                                                                                                                                                                                                                                                                                                                                   |
 | 8-9        | **Ruins**. You come across the abandoned remnants of a bygone era. If you choose to explore it use the Indoor Location generation rules                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | 10-11      | **Settlement**. You stumble upon a small Blackclay settlement. Use the Settlement rules found on page 83                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -64,3 +64,30 @@
 | 18         | **Caravan**. Ahead of you, you see what seems like the remains of a caravan. The carts are all covered with a fine layer of volcanic ash. Surrounding it, you find the skeletal remains of all the animals and humans that belonged to the caravan. Small, black spiders scurry about them, but no clear signs of violence are visible                                                                                                                                                                                                                     |
 | 19         | **The Hag**. As you make progress through these lonely lands, you interrupt yourself when you see an old woman sitting by, looking at you. You approach her and she simply smiles at you and starts telling you about her lost nephew. For some reason you feel obliged to listen to her, but as her story progresses you start to feel uncomfortable, shadows flickering around you. Perform a WIL test, if you fail you earn 2 CP, but gain 2 points in Forbidden Lore. Either way, you pass out and when you wake up five minutes later the hag is gone |
 | 20         | **Goat Herd**. Even before you can see them, you hear them right ahead; the unmistakable balling of goats, in the hundreds. In the middle of the herd, a single man and his dog stand, walking peacefully. If you approach him and pass a CHA test he will offer you guidance, allowing you to ignore the next negative result from a hex                                                                                                                                                                                                                  |
+
+^a00248
+
+
+| `dice:D100`| Akkar Strand Encounters                      |
+| ------ | -------------------------------------------- |
+| 1-5    | Insect: Giant Mosquitoes (Vermin)            |
+| 6-10   | Beast: Madari rats (Vermin)                  |
+| 11-15  | Insect: Night Beetles (Vermin)               |
+| 16-20  | Insect: Centipede (Vermin)                   |
+| 21-25  | Abomination: Spawnlings of Vhol'est (Vermin) |
+| 26-32  | Human                                        |
+| 33-40  | Beast: Wolf (Common)                         |
+| 41-45  | Beast: Crawler (Common)                      |
+| 46-50  | Beast: Pale Ghar (Common)                    |
+| 51-55  | Beast: Steel Deer (Common)                   |
+| 56-60  | Beast: Sabershadow (Common)                  |
+| 61-65  | Abomination: Shadow Hound (Common)           |
+| 66-70  | Abomination: Spawn of Vhol'est (Elite)       |
+| 71-75  | Beast: Giant Snake (Elite)                   |
+| 76-80  | Beast: Giant Spider (Elite)                  |
+| 81-85  | Abomination: Bonefiend (Elite)               |
+| 86-90  | Abomination: Blessed One (Elite)             |
+| 91-95  | Abomination: Crystal Ghoul (Elite)           |
+| 96-100 | Beast: Archelon (Elite)                      |
+
+^d77bd6

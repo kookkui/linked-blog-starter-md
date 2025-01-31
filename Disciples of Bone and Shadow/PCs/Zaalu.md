@@ -103,7 +103,7 @@ Pskills2: "Inner Compass (1 EP): You may re-roll once any failed Orientation tes
 >>| **Herb Lore** | `30` |
 >>| **Literacy** (INT `=this.INT`) | `34` |
 >>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `45` |
->>| **Orientation** (20) | `40` |
+>>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `46` |
 >>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `45` |
 >>| **Perception** (20) | `30` |

@@ -66,6 +66,8 @@
 | 19         | Lantern 20, 1 GS                                                                     |
 | 20         | A One-Handed Weapon. Roll a D4: 1 Sword, 2 Hammer or Mace, 3 Axe, 4 Dagger 100, 1 GS |
 
+^80c050
+
 
 
 | `dice:d20` | Valuable Finds                                                                         |
@@ -91,8 +93,10 @@
 | 19         | Ornate Helmet 800 1 GS                                                                 |
 | 20         | Tome of Herbal Tradition 200 Light                                                     |
 
+^494166
 
-| `dice:d20` | Valuable Finds                                 |
+
+| `dice:d20` | Rare Finds                                     |
 | ---------- | ---------------------------------------------- |
 | 1          | Alchemy Treatise 300 Light                     |
 | 2          | Tome of Forbidden Lore 300 Light               |
@@ -113,7 +117,9 @@
 | 17         | Suth Marble 500 Light                          |
 | 18         | Darkness Well 50 Light                         |
 | 19         | One-Handed Shalvan Wood Weapon 1,500 1 GS      |
-| 20         | Roll on the Artifacts table                    |
+| 20         | `dice:[[DBS Tables#^25e5a3]]`                  |
+
+^a381b4
 
 
 | `dice:d20` | Artifacts                            |
@@ -138,6 +144,8 @@
 | 18         | Taintnut                             |
 | 19         | Crystallized Ice of Alnavis (unique) |
 | 20         | Staff of Scars                       |
+
+^25e5a3
 
 
 | `dice:d10` | Setting Camp Mishap                                                                                                                                                                              |
