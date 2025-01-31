@@ -10,19 +10,19 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-Weapon1: Placeholder
-Weapon1dmg: 69
-Weapon1notes: Its badass
-Weapon2: Placeholder
-Weapon2dmg: 69
-Weapon2notes: Its badass
-Weapon3: Placeholder
-Weapon3dmg: 69
-Weapon3notes: Its badass
+Weapon1: One-Handed Sword
+Weapon1dmg: d6
+Weapon1notes: +10 Parry
+Weapon2: 
+Weapon2dmg: 
+Weapon2notes: 
+Weapon3: 
+Weapon3dmg: 
+Weapon3notes: 
 Armor: 0
 DmgTkn: 0
 TempHP: 0
-currency: 200
+currency: 125
 provisions: 10
 hregion: Place
 advantages: Good thing
@@ -31,6 +31,10 @@ flaws: Asshole
 Head: Hunter (Foraging, Marksmanship)
 Title69: 1x Healing Tincture
 Title1: Rations
+Pskills69: "Marksmanship: You may relinquish your turn to aim with a Ranged Weapon, doubling the damage of your next attack."
+Pskills1: "Foraging (Archetype Exclusive): This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild."
+Title2: Torch x 10
+Title3: Bandage x 5
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -85,31 +89,31 @@ Title1: Rations
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** |
 >>| ------------------------- | ----------- |
->>| **Alchemy** | `0` |
->>| **Animal Handling** (CHA) | `0` |
->>| **Command Skills** (CHA) | `0` |
->>| **Crafting** (DEX) | `0` |
->>| **Disguise** (DEX) | `0` |
->>| **Dodge** (DEX x 2) | `0` |
->>|**First Aid** (20) | `0` |
->>| **Forbidden Lore** | `0` |
->>| **Herb Lore** | `0` |
->>| **Literacy** (INT) | `0` |
->>| **One-Handed Melee** (STR + DEX) | `0` |
->>| **Orientation** (20) | `0` |
->>|**Outdoor Survival** (INT + DEX) | `0` |
->>| **Parry** (STR + DEX) | `0` |
->>| **Perception** (20) | `0` |
->>| **Persuasion** (CHA) | `0` |
->>| **Pick Pockets** (DEX) | `0` |
->>| **Ranged Weapons** (DEX x 2) | `0` |
->>| **Sailing** (DEX) | `0` |
->>| **Sneaking** (DEX x 2) | `0` |
->>| **Throw** (STR + DEX) | `0` |
->>| **Tracking** (INT) | `0` |
->>| **Traditional Lore** (20) | `0` |
->>| **Two-Handed Melee** (STR x 2) | `0` |
->>| **Unarmed** (STR + DEX) | `0` |
+>>| **Alchemy** | `30` |
+>>| **Animal Handling** (CHA `=this.CHA`) | `12` |
+>>| **Command Skills** (CHA `=this.CHA`) | `12` |
+>>| **Crafting** (DEX `=this.DEX`) | `37` |
+>>| **Disguise** (DEX `=this.DEX`) | `17` |
+>>| **Dodge** (DEX `=this.DEX` x 2) | `44` |
+>>|**First Aid** (20) | `40` |
+>>| **Forbidden Lore** | `20` |
+>>| **Herb Lore** | `30` |
+>>| **Literacy** (INT `=this.INT`) | `34` |
+>>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `45` |
+>>| **Orientation** (20) | `40` |
+>>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `46` |
+>>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `45` |
+>>| **Perception** (20) | `30` |
+>>| **Persuasion** (CHA `=this.CHA`) | `12` |
+>>| **Pick Pockets** (DEX `=this.DEX`) | `17` |
+>>| **Ranged Weapons** (DEX `=this.DEX` x 2) | `44` |
+>>| **Sailing** (DEX `=this.DEX`) | `17` |
+>>| **Sneaking** (DEX `=this.DEX` x 2) | `34` |
+>>| **Throw** (STR `=this.STR` + DEX `=this.DEX`) | `35` |
+>>| **Tracking** (INT `=this.INT` ) | `29` |
+>>| **Traditional Lore** (20) | `20` |
+>>| **Two-Handed Melee** (STR `=this.STR` x 2) | `46` |
+>>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) | `35` |
 >>
 >>
 >> ### Passive Skills
@@ -201,3 +205,6 @@ actions:
   value: getMetadata('xp') + getMetadata('axp')
 
 ```
+
+
+

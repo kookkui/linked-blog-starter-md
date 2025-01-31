@@ -79,34 +79,44 @@ flaws: Asshole
 >>| **Intelligence** |  `=this.INT` | 
 >>| **Charisma**     | `=this.CHA` | 
 >>| **Max Gear Slots**     | `=this.GeSl` | 
+>> ### Stats
+>> |        |         |   
+>>| ---- | ---- |
+>>| **Strength**   | `=this.STR`  |
+>>| **Dexterity**    | `=this.DEX` | 
+>>| **Constitution** | `=this.CONST` |
+>>| **Will**         |  `=this.WIL` | 
+>>| **Intelligence** |  `=this.INT` | 
+>>| **Charisma**     | `=this.CHA` | 
+>>| **Max Gear Slots**     | `=(this.STR)` | 
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** |
 >>| ------------------------- | ----------- |
 >>| **Alchemy** | `0` |
->>| **Animal Handling** (CHA) | `0` |
->>| **Command Skills** (CHA) | `0` |
->>| **Crafting** (DEX) | `0` |
->>| **Disguise** (DEX) | `0` |
->>| **Dodge** (DEX x 2) | `0` |
+>>| **Animal Handling** (CHA `=this.CHA`) | `0` |
+>>| **Command Skills** (CHA `=this.CHA`) | `0` |
+>>| **Crafting** (DEX `=this.DEX`) | `0` |
+>>| **Disguise** (DEX `=this.DEX`) | `0` |
+>>| **Dodge** (DEX `=this.DEX` x 2) | `0` |
 >>|**First Aid** (20) | `0` |
 >>| **Forbidden Lore** | `0` |
 >>| **Herb Lore** | `0` |
->>| **Literacy** (INT) | `0` |
->>| **One-Handed Melee** (STR + DEX) | `0` |
+>>| **Literacy** (INT `=this.INT`) | `0` |
+>>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `0` |
 >>| **Orientation** (20) | `0` |
->>|**Outdoor Survival** (INT + DEX) | `0` |
->>| **Parry** (STR + DEX) | `0` |
+>>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `0` |
+>>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `0` |
 >>| **Perception** (20) | `0` |
->>| **Persuasion** (CHA) | `0` |
->>| **Pick Pockets** (DEX) | `0` |
->>| **Ranged Weapons** (DEX x 2) | `0` |
->>| **Sailing** (DEX) | `0` |
->>| **Sneaking** (DEX x 2) | `0` |
->>| **Throw** (STR + DEX) | `0` |
->>| **Tracking** (INT) | `0` |
+>>| **Persuasion** (CHA `=this.CHA`) | `0` |
+>>| **Pick Pockets** (DEX `=this.DEX`) | `0` |
+>>| **Ranged Weapons** (DEX `=this.DEX` x 2) | `0` |
+>>| **Sailing** (DEX `=this.DEX`) | `0` |
+>>| **Sneaking** (DEX `=this.DEX` x 2) | `0` |
+>>| **Throw** (STR `=this.STR` + DEX `=this.DEX`) | `0` |
+>>| **Tracking** (INT `=this.INT` ) | `0` |
 >>| **Traditional Lore** (20) | `0` |
->>| **Two-Handed Melee** (STR x 2) | `0` |
->>| **Unarmed** (STR + DEX) | `0` |
+>>| **Two-Handed Melee** (STR `=this.STR` x 2) | `0` |
+>>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) | `0` |
 >>
 >>
 >> ### Passive Skills
