@@ -1,6 +1,6 @@
 ---
 Art: "![[Character Image Placholder]]"
-Level: 0
+Level: 1
 Corruption: 0
 HP: 0
 GeSl: 0
@@ -24,11 +24,15 @@ DmgTkn: 0
 TempHP: 0
 Currency: 0
 Provisions: 0
+hregion: Place
+advantages: Good thing
+disadvantages: Bad thing
+flaws: Asshole
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
 >> # `=this.file.name`
->> ![[Character Image Placeholder]]
+>> ![[IMG-20250130195322893.webp]]
 >> ###### Stats
 >>|     |     |
 >> |--- | --- |
@@ -46,6 +50,15 @@ Provisions: 0
 >>| `=this.Weapon3` | `=this.Weapon3dmg` | `=this.Weapon3notes` |
 >>| | | |
 >>| | | |
+>>
+>>##### Character Traits
+>>|     |     |
+>> |--- | --- |
+>>| **Home Region**   |  `=this.hregion`   |
+>>|**Advantages** | `=this.advantages`|
+>> |**Disadvantages** |`=this.disadvantages` |
+>>| **Character Flaws**   |  `=this.flaws`   |
+>>
 >>  ###### Currency
 >>  | 
 >>---|---|

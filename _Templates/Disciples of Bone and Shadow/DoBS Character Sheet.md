@@ -1,9 +1,7 @@
 ---
-Type: Player
 Art: "![[Character Image Placholder]]"
 Level: 0
 Corruption: 0
-Prof: 
 HP: 0
 GeSl: 0
 STR: 0
@@ -12,6 +10,7 @@ CONST: 0
 WIL: 0
 INT: 0
 CHA: 0
+GeSl: 0
 Weapon1: Placeholder
 Weapon1dmg: 69
 Weapon1notes: Its badass
@@ -26,7 +25,10 @@ DmgTkn: 0
 TempHP: 0
 Currency: 0
 Provisions: 0
-exampleProperty: Apprentice
+hregion: Place
+advantages: Good thing
+disadvantages: Bad thing
+flaws: Asshole
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -49,6 +51,15 @@ exampleProperty: Apprentice
 >>| `=this.Weapon3` | `=this.Weapon3dmg` | `=this.Weapon3notes` |
 >>| | | |
 >>| | | |
+>>
+>>##### Character Traits
+>>|     |     |
+>> |--- | --- |
+>>| **Home Region**   |  `=this.hregion`   |
+>>|**Advantages** | `=this.advantages`|
+>> |**Disadvantages** |`=this.disadvantages` |
+>>| **Character Flaws**   |  `=this.flaws`   |
+>>
 >>  ###### Currency
 >>  | 
 >>---|---|
@@ -188,4 +199,3 @@ actions:
   value: getMetadata('xp') + getMetadata('axp')
 
 ```
-
