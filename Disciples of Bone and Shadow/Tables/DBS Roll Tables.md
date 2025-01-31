@@ -12,6 +12,40 @@
 >`dice:[[DBS Tables#^442cac]]`
 
 
+>[!tldr] Interior Exploration
+>###### Doors
+>`dice:[[DBS Tables#^e7d45c]]`
+>
+>###### Exits
+>`dice:[[DBS Tables#^432bd3]]`
+>
+>###### Interior Exploration
+>`dice:[[DBS Exploration Tables#^9d5567]]`
+>
+>###### Traps
+>`dice:[[DBS Exploration Tables#^2a3c84]]`
+>
+>###### Artifice Type
+>`dice:[[DBS Tables#^4f9f58]]`
+>
+>###### Artifice Effect
+>`dice:[[DBS Tables#^819548]]`
+
+
+
+> [!gather] Caves
+>###### Cave Exploration
+>`dice:[[DBS Exploration Tables#^9d5567]]`
+>
+>###### Cave Encounters
+>`dice:[[DBS Exploration Tables#^2a3c84]]`
+
+
+> [!danger] Monsters
+>###### Mark of Taint
+>`dice:[[DBS Tables#^769b4d]]`
+
+
 >[!dice] Loot
 >
 >###### Common Finds
@@ -26,3 +60,4 @@
 >
 >###### Artifacts
 >`dice:[[DBS Tables#^25e5a3]]`
+

@@ -91,3 +91,45 @@
 | 96-100 | Beast: Archelon (Elite)                      |
 
 ^d77bd6
+
+
+|`dice:D20`| Cave Exploration|
+| --- | ------------------------------------------- |
+| 1-5 | `dice:[[DBS Exploration Tables#^2a3c84]]` |
+|6-10|**Nothing of interest.** This section of the cave is empty and has nothing of interest|
+|11|**Artifice**. A strange item or situation placed here to trick or confuse the PCs. Use the Artifice tables to determine its nature|
+|12|**Trap**. This room is trapped. Follow the standard trap rules and roll on the Traps table found on page 80|
+|13|**Loot**. You come across something of value. Roll on the Loot table|
+|14|**Flooded section**. It appears that the room is flooded, and the only possible way to continue is by swimming through it|
+|15|**Dangerous Crossing**. Ahead of you, there's a shambling rope bridge. There's a 50% chance that it will collapse as you attempt to cross it|
+|16|**Tremors**. The ground and walls suddenly begin to shake, causing debris to fall all around you. Perform a Dodge test to avoid being hit by falling rock; if you fail you lose D4 HP|
+|17|**Fresh Water.** A small underground spring crisscrosses this section of the cave, providing the group with all the freshwater they need. Each PC gains D4 rations|
+|18|**Lava Flow**. The sudden, violent heat of lava hits you in the face. You'll need to find a way to cross it, or find another path|
+|19|**Narrow Passage**. The cave suddenly narrows down to a point where you must not only crawl, but also get rid of any large shield or bulky armor if you want to make it through|
+|20|**Noxious Fumes**. A cloud of toxic fumes seeps in from the cracks in this room's floor, filling the place with the nauseating smell of sulfur. All characters that remain here must follow the Drowning rules found on page 46|
+
+^9d5567
+
+| `dice:D100` | Cave Encounters                        |
+| ----------- | -------------------------------------- |
+| 1-5         | Insect: Giant Mosquitoes (Vermin)      |
+| 6-10        | Beast: Madari rats (Vermin)            |
+| 11-15       | Insect: Night Beetles (Vermin)         |
+| 16-20       | Insect: Centipede (Vermin)             |
+| 21-25       | Beast: Tundra Rats (Vermin)            |
+| 26-32       | Beast: Fire Bats (Vermin)              |
+| 33-40       | Beast:Wolf (Common)                    |
+| 41-45       | Beast: Crawler (Common)                |
+| 46-50       | Beast: Pale Ghar (Common)              |
+| 51-55       | Undead: Risen (Common)                 |
+| 56-60       | Beast: Sabershadow (Common)            |
+| 61-65       | Human                                  |
+| 66-70       | Abomination: Spawn of Vhol'est (Elite) |
+| 71-75       | Beast: Giant Snake (Elite)             |
+| 76-80       | Beast: Giant Spider (Elite)            |
+| 81-85       | Abomination: Crog (Elite)              |
+| 86-90       | Beast: Glacial Bear (Elite)            |
+| 91-95       | Abomination: Crystal Ghoul (Elite)     |
+| 96-100      | Beast: White Stalker (Elite)           |
+
+^2a3c84

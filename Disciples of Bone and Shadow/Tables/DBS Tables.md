@@ -176,16 +176,16 @@
 | 10         | You find a beehive but before you can even think of harvesting some honey they attack you, stinging your face and hands. Receive D4 damage                                                           |
 
 
-| `dice:d8` | Indoor Locations Special Conditions                                                                                                                     |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1        | **Tyrannical** – Elite Foes have 50% more health                                                                                                            |
-| 2        | **Unstable** – Every 4 rooms explored, the ground shakes. All characters lose D20 HP from the falling rubble, but so do enemies at the start of each combat |
-| 3        | **Empowered** – All enemies deal an extra 1 damage per attack                                                                                               |
-| 4        | **Fearless** – Enemies encountered here will never flee due to low numbers                                                                                  |
-| 5        | **Toxic Blood** – When slain, fiends and foes splash the player characters with toxic blood. Pass a CON Test or lose 1 HP per enemy killed                  |
-| 6        | **Bolstered** – When an opponent dies it enrages the other members of its group, who deal an extra 5 damage per attack                                      |
-| 7        | **Necrotic** – Successful enemy attacks infect the players with a necrotic disease that reduces all healing received during combat by 50%                   |
-| 8        | **Armored** – All enemies here have suffered a mutation that covers them in armored plates, which grants them Armor (1)                                     |
+| `dice:d8` | Indoor Locations Special Conditions                                                                                                                         |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | **Tyrannical** – Elite Foes have 50% more health                                                                                                            |
+| 2         | **Unstable** – Every 4 rooms explored, the ground shakes. All characters lose D20 HP from the falling rubble, but so do enemies at the start of each combat |
+| 3         | **Empowered** – All enemies deal an extra 1 damage per attack                                                                                               |
+| 4         | **Fearless** – Enemies encountered here will never flee due to low numbers                                                                                  |
+| 5         | **Toxic Blood** – When slain, fiends and foes splash the player characters with toxic blood. Pass a CON Test or lose 1 HP per enemy killed                  |
+| 6         | **Bolstered** – When an opponent dies it enrages the other members of its group, who deal an extra 5 damage per attack                                      |
+| 7         | **Necrotic** – Successful enemy attacks infect the players with a necrotic disease that reduces all healing received during combat by 50%                   |
+| 8         | **Armored** – All enemies here have suffered a mutation that covers them in armored plates, which grants them Armor (1)                                     |
 
 | `dice:d10` | Doors                                                                                                                                                                                                                                                                    |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -196,6 +196,8 @@
 | 7-8        | An empty archway with no door                                                                                                                                                                                                                                            |
 | 9          | An unlocked wood and bone door, but trapped. A party member (whoever crossed first) suffers D10 damage as a stone falls on them unless they pass a Perception skill test to detect the trap. Pass a DEX test or use the Disarm Traps skill to disable it                 |
 | 10         | A locked stone door. Pass a STR test (-2) or a Lockpicking test in order to get through it                                                                                                                                                                               |
+
+^e7d45c
 
 | `dice:1D10 + 1d10` | Exits |
 | ----------- | ----- |
@@ -238,29 +240,33 @@
 | 5          | Brazier       |
 | 6          | Shrine/Idol   |
 
+^4f9f58
+
 
 | `dice:1D44%` | Artifice Effect                                                                     |
-| ---------- | ----------------------------------------------------------------------------------- |
-| 11         | Anti-magic                                                                          |
-| 12         | Raises/lowers a random ability score by D4 points for D20 hours                     |
-| 13         | Raises/lowers the site's temperature                                                |
-| 14         | Conceals/Reveals                                                                    |
-| 21         | Applies a random Condition for D10 turns                                            |
-| 22         | Divines (prophetic images or words)                                                 |
-| 23         | Entraps (roll on the Traps table)                                                   |
-| 24         | Enrages (+10 Offense/-10 Defense to the PCs during the next combat)                 |
-| 31         | Greed-causing (the PCs are exclusively motivated by greed during the next 24 hours) |
-| 32         | Heals Condition (only once)                                                         |
-| 33         | Heals D20 HP (only once)                                                            |
-| 34         | Bestows Knowledge/Secret                                                            |
-| 41         | Grants/takes 10 points from a random skill                                          |
-| 42         | Locks/unlocks all doors in the room                                                 |
-| 43         | Grants/Removes D4 CP                                                                |
-| 44         | Rots D10 rations                                                                    |
+| ------------ | ----------------------------------------------------------------------------------- |
+| 11           | Anti-magic                                                                          |
+| 12           | Raises/lowers a random ability score by D4 points for D20 hours                     |
+| 13           | Raises/lowers the site's temperature                                                |
+| 14           | Conceals/Reveals                                                                    |
+| 21           | Applies a random Condition for D10 turns                                            |
+| 22           | Divines (prophetic images or words)                                                 |
+| 23           | Entraps (roll on the Traps table)                                                   |
+| 24           | Enrages (+10 Offense/-10 Defense to the PCs during the next combat)                 |
+| 31           | Greed-causing (the PCs are exclusively motivated by greed during the next 24 hours) |
+| 32           | Heals Condition (only once)                                                         |
+| 33           | Heals D20 HP (only once)                                                            |
+| 34           | Bestows Knowledge/Secret                                                            |
+| 41           | Grants/takes 10 points from a random skill                                          |
+| 42           | Locks/unlocks all doors in the room                                                 |
+| 43           | Grants/Removes D4 CP                                                                |
+| 44           | Rots D10 rations                                                                    |
+
+^819548
 
 
-| `dice:d20` | Mark of Taint                                                                                                                                                                                                         |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `dice:d20` | Mark of Taint                                                                                                                                                                                                             |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1          | **Fear**. Each character must perform a WIL Test every turn. If they fail, they suffer a -20 penalty to all actions that turn                                                                                             |
 | 2          | **Transfixing Stare**. The characters may not run away from this creature                                                                                                                                                 |
 | 3          | **Incombustible**. Immune to Burning                                                                                                                                                                                      |
@@ -281,3 +287,5 @@
 | 18         | **Disarming Tentacles.** Once per turn, the characters must perform a DEX Test to avoid being disarmed. If failed, they lose their weapon and must spend a turn recovering it                                             |
 | 19         | **Thorns**. If fighting in melee range, the player must perform a DEX Testevery turn or suffer 2 damage                                                                                                                   |
 | 20         | **Endurance**. This creature may lose no more than 5 HP per attack                                                                                                                                                        |
+
+^769b4d
