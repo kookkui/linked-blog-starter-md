@@ -11,6 +11,8 @@
 | 5         | Mountains    |
 | 6         | Water        |
 
+^84401e
+
 
 | `dice:d10` | Travel Complications                                                                                                                                                                                                                                                                                                                                                               |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -22,6 +24,8 @@
 | 7          | **Crossed a Threshold**. It seems that you've somehow crossed a Threshold without realizing it. You have no recollection of what happened the past 20 hours, but you arrive at your destination safe and sound, aside from some singed clothes and getting there a day late 8 Overgrowth. The path ahead is overgrown with vines, grass and twisted bushes, reducing your pace to Slow |
 | 9          | **Restless dead**. In order to avoid a horde of restless dead roaming the path ahead of you, you must make a detour around them. Add an extra 10 miles to your journey                                                                                                                                                                                                                 |
 |10          | **Drained vitality**. You wander into a patch of land that seems to be affected by some powerful death magic, draining the life of anyone or anything crossing it. You arrive at your destination crawling, fatigued beyond anything you've ever experienced. You are unable to eat or set camp for the night, going straight to sleep|
+
+^442cac
 
 
 | `dice:d10` | Weather           |
@@ -166,14 +170,14 @@
 
 | `dice:d8` | Indoor Locations Special Conditions                                                                                                                     |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1        | Tyrannical – Elite Foes have 50% more health                                                                                                            |
-| 2        | Unstable – Every 4 rooms explored, the ground shakes. All characters lose D20 HP from the falling rubble, but so do enemies at the start of each combat |
-| 3        | Empowered – All enemies deal an extra 1 damage per attack                                                                                               |
-| 4        | Fearless – Enemies encountered here will never flee due to low numbers                                                                                  |
-| 5        | Toxic Blood – When slain, fiends and foes splash the player characters with toxic blood. Pass a CON Test or lose 1 HP per enemy killed                  |
-| 6        | Bolstered – When an opponent dies it enrages the other members of its group, who deal an extra 5 damage per attack                                      |
-| 7        | Necrotic – Successful enemy attacks infect the players with a necrotic disease that reduces all healing received during combat by 50%                   |
-| 8        | Armored – All enemies here have suffered a mutation that covers them in armored plates, which grants them Armor (1)                                     |
+| 1        | **Tyrannical** – Elite Foes have 50% more health                                                                                                            |
+| 2        | **Unstable** – Every 4 rooms explored, the ground shakes. All characters lose D20 HP from the falling rubble, but so do enemies at the start of each combat |
+| 3        | **Empowered** – All enemies deal an extra 1 damage per attack                                                                                               |
+| 4        | **Fearless** – Enemies encountered here will never flee due to low numbers                                                                                  |
+| 5        | **Toxic Blood** – When slain, fiends and foes splash the player characters with toxic blood. Pass a CON Test or lose 1 HP per enemy killed                  |
+| 6        | **Bolstered** – When an opponent dies it enrages the other members of its group, who deal an extra 5 damage per attack                                      |
+| 7        | **Necrotic** – Successful enemy attacks infect the players with a necrotic disease that reduces all healing received during combat by 50%                   |
+| 8        | **Armored** – All enemies here have suffered a mutation that covers them in armored plates, which grants them Armor (1)                                     |
 
 | `dice:d10` | Doors                                                                                                                                                                                                                                                                    |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -195,3 +199,77 @@
 
 ^432bd3
 
+
+| `dice:1D10` | Interior Exploration |
+| ----------- | -------------------- |
+| 1-7         | Room                 |
+| 8-10        | Corridor             |
+
+
+| `dice:1D10` | Traps                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1           | **Poison Darts.** Characters must pass a CON Test or gain the Poisoned condition (see page 45).                                                                                                                                                                                                                                                                                                                                  |
+| 2           | **Trapdoor.** Characters must successfully pass a DEX Test or lose D10 HP. If the whole party falls inside, they will need a rope to escape the pit, or they will die of starvation inside of it.                                                                                                                                                                                                                                |
+| 3           | **Sand Trap.** A wall closes behind the characters as soon as they enter this room, and sand begins falling in from the ceiling. The party has a combined 10 attempts at deactivating this trap with the Disarm Traps skill or by successfully passing a DEX (-6) Test, or they all die.                                                                                                                                         |
+| 4           | **Collapsing Ceiling.** The ceiling above the party collapses on top of them. Characters must each successfully pass a DEX Test or lose D20 HP.                                                                                                                                                                                                                                                                                  |
+| 5           | **Noxious Gas.** A wall closes behind the party, and toxic gas is released in the room. Characters immediately lose 2 HP, and they lose another 1 HP each time they fail to disable the trap using the Disarm Traps skill or a DEX (-6) Skill Test until a successful attempt is made, disabling the trap.                                                                                                                       |
+| 6           | **Spears.** Sharp spears slide from the walls, stabbing at any character who fails to pass a DEX Test. They are targeted by D6 attacks that deal 2 damage each.                                                                                                                                                                                                                                                                  |
+| 7           | **Vermin Pit.** A pit opens underneath the characters, teeming with vermin. The characters must succeed on a DEX Test or lose D10 HP, after which they will face the vermin inside. Roll on the Vermin Table. Luckily, once the vermin are dealt with, it's not too difficult to climb back up.                                                                                                                                  |
+| 8           | **Bear Trap.** A random character steps on a hidden bear trap. Roll a DEX Test to avoid getting caught in it. A trapped character must succeed on a STR Test to free themselves, or else they will suffer D10 damage and are unable to move. One attempt per character is allowed. If the trapped character manages to be released, they will have their Dodge Skill halved until all damage caused by the trap has been healed. |
+| 9           | **Net Trap.** A net falls from the ceiling, pulling the characters into the air unless they pass a DEX Test. If they are trapped, they must roll a successful DEX (-5) Test to cut down the net. After each failed release attempt, roll a D10. On a 1 or 2 a wandering enemy hears the commotion, and attacks. The characters will be automatically hit (no Parrying allowed) by the enemy until they can free themselves.      |
+| 10          | **Fire Trap.** Huge flames roar from the walls the moment the characters step into this room. Roll a DEX Test to avoid the flames or lose D10 HP and gain the Burning condition. You fight with a -20 to your attack skills until the wounds caused by the fire are healed.                                                                                                                                                      |
+
+
+
+| `dice:1D6` | Artifice Type |
+| ---------- | ------------- |
+| 1          | Fountain      |
+| 2          | Statue        |
+| 3          | Fresco        |
+| 4          | Altar         |
+| 5          | Brazier       |
+| 6          | Shrine/Idol   |
+
+
+| `dice:1D44%` | Artifice Effect                                                                     |
+| ---------- | ----------------------------------------------------------------------------------- |
+| 11         | Anti-magic                                                                          |
+| 12         | Raises/lowers a random ability score by D4 points for D20 hours                     |
+| 13         | Raises/lowers the site's temperature                                                |
+| 14         | Conceals/Reveals                                                                    |
+| 21         | Applies a random Condition for D10 turns                                            |
+| 22         | Divines (prophetic images or words)                                                 |
+| 23         | Entraps (roll on the Traps table)                                                   |
+| 24         | Enrages (+10 Offense/-10 Defense to the PCs during the next combat)                 |
+| 31         | Greed-causing (the PCs are exclusively motivated by greed during the next 24 hours) |
+| 32         | Heals Condition (only once)                                                         |
+| 33         | Heals D20 HP (only once)                                                            |
+| 34         | Bestows Knowledge/Secret                                                            |
+| 41         | Grants/takes 10 points from a random skill                                          |
+| 42         | Locks/unlocks all doors in the room                                                 |
+| 43         | Grants/Removes D4 CP                                                                |
+| 44         | Rots D10 rations                                                                    |
+
+
+| `dice:d20` | Mark of Taint                                                                                                                                                                                                         |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | **Fear**. Each character must perform a WIL Test every turn. If they fail, they suffer a -20 penalty to all actions that turn                                                                                             |
+| 2          | **Transfixing Stare**. The characters may not run away from this creature                                                                                                                                                 |
+| 3          | **Incombustible**. Immune to Burning                                                                                                                                                                                      |
+| 4          | **Snake Blood.** Immune to Poisoned                                                                                                                                                                                       |
+| 5          | **Southern Kin**. Immune to Chilled                                                                                                                                                                                       |
+| 6          | **Bloodless**. Immune to Bleeding                                                                                                                                                                                         |
+| 7          | **Thick Skull.** Immune to Stunned                                                                                                                                                                                        |
+| 8          | **Vampiric**. This creature heals 2 HP each time it deals damage                                                                                                                                                          |
+| 9          | **Berserk**. Upon reaching 25% remaining health points (rounding up), they deal 2 extra damage per attack but receive a -10 to their Defense                                                                              |
+| 10         | **Negate Death.** Ignore all damage caused by an attack that would otherwise be fatal. Only works once                                                                                                                    |
+| 11         | **Fire Affinity.** All damage inflicted by this creature has a 50% chance (roll with each attack) to cause the Burning condition                                                                                          |
+| 12         | **Heart-Stopping Aura**. This creature applies the Chilled condition to all characters in its proximity                                                                                                                   |
+| 13         | **Toxic**. All damage inflicted by this Veteran has a 50% chance (roll with each attack) to cause the Poisoned condition                                                                                                  |
+| 14         | **Regeneration**. This creature heals 1 HP automatically each turn                                                                                                                                                        |
+| 15         | **Armored**. This creature is protected by a thick skin that grants it Armor (1)                                                                                                                                          |
+| 16         | **Shroud of Darkness.** This creature is surrounded by a permanent cloud of darkness. All characters (except the creature itself) suffer the effects of the Blinded condition unless they have some light source or spell |
+| 17         | **Repelling Force Nimbus**. This creature is immune to ranged weapons attacks, thanks to a constant field surrounding it that stops all projectiles                                                                       |
+| 18         | **Disarming Tentacles.** Once per turn, the characters must perform a DEX Test to avoid being disarmed. If failed, they lose their weapon and must spend a turn recovering it                                             |
+| 19         | **Thorns**. If fighting in melee range, the player must perform a DEX Testevery turn or suffer 2 damage                                                                                                                   |
+| 20         | **Endurance**. This creature may lose no more than 5 HP per attack                                                                                                                                                        |
