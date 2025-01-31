@@ -45,7 +45,7 @@ archetype0: "**Hunter**: Foraging, Marksmanship"
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
 >> # `=this.file.name`
->> ![[Zaalu_non_AI.webp]]
+>> ![[Remote-SoloRPGs/_ Assets/Remote-SoloRPGs/Disciples of Bone and Shadow/PCs/Zaalu/Zaalu_non_AI.webp]]
 >> ###### Stats
 >>|     |     |
 >> |--- | --- |

@@ -7,3 +7,4 @@ Akkar Strand at the monolith, starting out my journey...
 A sacred relic from my village was stolen, by whom and where it was taken is unknown. But I have made it my mission to seek it out and return it.
 
 **Orientation Check** 40  1d%[6]
+Critical on Orientation +1 to skill
