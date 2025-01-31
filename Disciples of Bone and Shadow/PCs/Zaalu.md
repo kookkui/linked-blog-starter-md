@@ -37,6 +37,10 @@ Pskills1: "Foraging (Archetype Exclusive): This character consumes half as many 
 Title2: Torch x 10
 Title3: Bandage x 5
 Pskills2: "Inner Compass (1 EP): You may re-roll once any failed Orientation tests."
+passive0: "**Marksmanship**: You may relinquish your turn to aim with a Ranged Weapon, doubling the damage of your next attack."
+passive1: "**Foraging (Archetype Exclusive)**: This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild."
+passive2: "**Inner Compass**: You may re-roll once any failed Orientation tests."
+archetype0: "**Hunter**: Foraging, Marksmanship"
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -120,29 +124,38 @@ Pskills2: "Inner Compass (1 EP): You may re-roll once any failed Orientation tes
 >>
 >>
 >> ### Passive Skills
->>| 1 | `INPUT[text:Pskills69]` |
+>> |        |         |   
 >>| :-: | :----------------------------------------------------------------------------------------------------------------------------------- |
->>| 2 | `INPUT[text:Pskills1]` |
->>| 3 | `INPUT[text:Pskills2]` |
->>| 4 | `INPUT[text:Pskills3]` |
->>| 5 | `INPUT[text:Pskills4]` |
->>| 6 |`INPUT[text:Pskills5]` |
->>| 7 | `INPUT[text:Pskills6]` |
->>| 8 | `INPUT[text:Pskills7]` |
->>| 9 | `INPUT[text:Pskills8]` |
->>| 10 | `INPUT[text:Pskills9]` |
->>| 11 | `INPUT[text:Pskills10]` |
->>| 12 | `INPUT[text:Pskills11]` |
->>| 13 | `INPUT[text:Pskills12]` |
->>| 14 | `INPUT[text:Pskills13]` |
->>| 15 | `INPUT[text:Pskills14]` |
->>| 16 | `INPUT[text:Pskills1416]` |
->>| 17 | `INPUT[text:Pskills1417]` |
->>| 18 | `INPUT[text:Pskills1418]`
+>>| 1 | `=this.passive0` |
+>>| 2 | `=this.passive1` |
+>>| 3 | `=this.passive2` |
+>>| 4 | `=this.passive3` |
+>>| 5 | `=this.passive4` |
+>>| 6 |`=this.passive5` |
+>>| 7 | `=this.passive6` |
+>>| 8 | `=this.passive7` |
+>>| 9 | `=this.passive8` |
+>>| 10 | `=this.passive9` |
+>>| 11 | `=this.passive10` |
+>>| 12 | `=this.passive11` |
+>>| 13 | `=this.passive12` |
+>>| 14 | `=this.passive13` |
+>>| 15 | `=this.passive14` |
+>>| 16 | `=this.passive1416` |
+>>| 17 | `=this.passive1417` |
+>>| 18 | `=this.passive1418`
 >
 >>[!important] %%FAKE TITLE HERE%%
 >>##### Archetypes
->>`INPUT[textArea:Head]`
+>> |        |         |   
+>>| :-: | :----- |
+>>| 1 | `=this.archetype0` |
+>>| 2 | `=this.archetype1` |
+>>| 3 | `=this.archetype2` |
+>>| 4 | `=this.archetype3` |
+>>| 5 | `=this.archetype4` |
+>>| 6 |`=this.archetype5` |
+>>| 7 | `=this.archetype6` |
 >>##### Notes
 >>`INPUT[textArea:Other]`
 >
