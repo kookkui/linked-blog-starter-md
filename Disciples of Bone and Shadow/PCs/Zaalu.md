@@ -10,6 +10,7 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
+xp: 0
 Weapon1: One-Handed Sword
 Weapon1dmg: d6
 Weapon1notes: +10 Parry
@@ -24,10 +25,10 @@ DmgTkn: 0
 TempHP: 0
 currency: 125
 provisions: 10
-hregion: Place
-advantages: Good thing
-disadvantages: Bad thing
-flaws: Asshole
+hregion: Akkar Strand
+advantages: "Extreme Concentration: No matter what the circumstances are, you're capable of focusing on the task at hand, completely ignoring all distractions. This allows you to perform extremely well under stress in any circumstance (combat, running from danger, etc.)."
+disadvantages: "Violent: Maybe you were beaten up as a child, or belong to a tribe that strongly believed in “might is right”; whatever the case, you always tend to solve all problems with violence, unless it is completely evident that you will not fare well. To be clear, you are not suicidal, you simply think that violence is the answer to all questions."
+flaws: Bad Tempered I
 Head: Hunter (Foraging, Marksmanship)
 Title69: 1x Healing Tincture
 Title1: Rations
@@ -35,6 +36,7 @@ Pskills69: "Marksmanship: You may relinquish your turn to aim with a Ranged Weap
 Pskills1: "Foraging (Archetype Exclusive): This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild."
 Title2: Torch x 10
 Title3: Bandage x 5
+Pskills2: "Inner Compass (1 EP): You may re-roll once any failed Orientation tests."
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -48,6 +50,7 @@ Title3: Bandage x 5
 >> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
 >> |**XP** | `VIEW[{xp}][text]`|
+>>|**ADD XP :**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>
 >> ###### Weapons
 >>| **Weapons** | **Damage** | **Notes** |
