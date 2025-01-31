@@ -1,15 +1,15 @@
 ---
 Art: "![[Character Image Placholder]]"
 Level: 1
-Corruption: 0
-HP: 0
+Corruption: 10
+HP: 48
 GeSl: 0
-STR: 0
-DEX: 0
-CONST: 0
-WIL: 0
-INT: 0
-CHA: 0
+STR: 18
+DEX: 17
+CONST: 16
+WIL: 15
+INT: 14
+CHA: 12
 Weapon1: Placeholder
 Weapon1dmg: 69
 Weapon1notes: Its badass
@@ -22,12 +22,15 @@ Weapon3notes: Its badass
 Armor: 0
 DmgTkn: 0
 TempHP: 0
-Currency: 0
-Provisions: 0
+currency: 200
+provisions: 10
 hregion: Place
 advantages: Good thing
 disadvantages: Bad thing
 flaws: Asshole
+Head: Hunter (Foraging, Marksmanship)
+Title69: 1x Healing Tincture
+Title1: Rations
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -38,7 +41,7 @@ flaws: Asshole
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
 >>|**HP** | `=this.HP - this.DmgTkn + this.TempHP`|
->> |**Corruption** | `0` `=this.Corruption` |
+>> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
 >> |**XP** | `VIEW[{xp}][text]`|
 >>
@@ -62,11 +65,11 @@ flaws: Asshole
 >>  ###### Currency
 >>  | 
 >>---|---|
->>**Currency**|`=this.Currency` |
+>>**Currency**|`=this.currency` |
 >> ###### Provisions
 >>  | 
 >>---|---|
->>**Provisions**|`=this.Provisions` |
+>>**Provisions**|`=this.provisions` |
 >
 >>[!infobox] %%FAKE TITLE HERE%%
 >> ### Stats
@@ -78,7 +81,7 @@ flaws: Asshole
 >>| **Will**         |  `=this.WIL` | 
 >>| **Intelligence** |  `=this.INT` | 
 >>| **Charisma**     | `=this.CHA` | 
->>| **Max Gear Slots**     | `=this.GeSl` | 
+>>| **Max Gear Slots**     | `=(this.STR)` | 
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** |
 >>| ------------------------- | ----------- |
@@ -138,48 +141,48 @@ flaws: Asshole
 >
 >>[!table] %%FAKE TITLE HERE%%
 >> ### Inventory
->>| Slot |  | Equipped?|
->>| :-: | :----------------------------------------------------------------------------------------------------------------------------------- |--------|
->>| 1 | `INPUT[text:Title69]` | <input type="checkbox" unchecked>   |
->>| 2 | `INPUT[text:Title1]` |<input type="checkbox" unchecked>   |
->>| 3 | `INPUT[text:Title2]` |<input type="checkbox" unchecked>   |
->>| 4 | `INPUT[text:Title3]` |<input type="checkbox" unchecked>   |
->>| 5 | `INPUT[text:Title4]` |<input type="checkbox" unchecked>   |
->>| 6 |`INPUT[text:Title5]` |<input type="checkbox" unchecked>   |
->>| 7 | `INPUT[text:Title6]` |<input type="checkbox" unchecked>   |
->>| 8 | `INPUT[text:Title7]` |<input type="checkbox" unchecked>   |
->>| 9 | `INPUT[text:Title8]` |<input type="checkbox" unchecked>   |
->>| 10 | `INPUT[text:Title9]` |<input type="checkbox" unchecked>   |
->>| 11 | `INPUT[text:Title10]` |<input type="checkbox" unchecked>   |
->>| 12 | `INPUT[text:Title11]` |<input type="checkbox" unchecked>   |
->>| 13 | `INPUT[text:Title12]` |<input type="checkbox" unchecked>   |
->>| 14 | `INPUT[text:Title13]` |<input type="checkbox" unchecked>   |
->>| 15 | `INPUT[text:Title14]` |<input type="checkbox" unchecked>   |
->>| 16 | `INPUT[text:Title1416]` |<input type="checkbox" unchecked>   |
->>| 17 | `INPUT[text:Title1417]` |<input type="checkbox" unchecked>   |
->>| 18 | `INPUT[text:Title1418]` |<input type="checkbox" unchecked>   |
->>| 19 | `INPUT[text:Title1419]` |<input type="checkbox" unchecked>   |
->>| 20 | `INPUT[text:Title1420]` |<input type="checkbox" unchecked>   |
->>| 21 | `INPUT[text:Title1421]` |<input type="checkbox" unchecked>   |
->>| 22 | `INPUT[text:Title1422]` |<input type="checkbox" unchecked>   |
->>| 23 | `INPUT[text:Title143]` |<input type="checkbox" unchecked>   |
->>| 24 | `INPUT[text:Title1424]` |<input type="checkbox" unchecked>   |
->>| 25 | `INPUT[text:Title1425]` |<input type="checkbox" unchecked>   |
->>| 26 | `INPUT[text:Title1426]` |<input type="checkbox" unchecked>   |
->>| 27 | `INPUT[text:Title1427]` |<input type="checkbox" unchecked>   |
->>| 28 | `INPUT[text:Title1428]` |<input type="checkbox" unchecked>   |
->>| 29 | `INPUT[text:Title1431]` |<input type="checkbox" unchecked>   |
->>| 30 | `INPUT[text:Title1430]` |<input type="checkbox" unchecked>   |
->>| 31 | `INPUT[text:Title1432]` |<input type="checkbox" unchecked>   |
->>| 32 | `INPUT[text:Title1433]` |<input type="checkbox" unchecked>   |
->>| 33 | `INPUT[text:Title1434]` |<input type="checkbox" unchecked>   |
->>| 34 | `INPUT[text:Title1435]` |<input type="checkbox" unchecked>   |
->>| 35 | `INPUT[text:Title1436]` |<input type="checkbox" unchecked>   |
->>| 36 | `INPUT[text:Title1437]` |<input type="checkbox" unchecked>   |
->>| 37 | `INPUT[text:Title1438]` |<input type="checkbox" unchecked>   |
->>| 38 | `INPUT[text:Title1439]` |<input type="checkbox" unchecked>   |
->>| 39 | `INPUT[text:Title1440]` |<input type="checkbox" unchecked>   |
->>| 40 | `INPUT[text:Title1441]` |<input type="checkbox" unchecked>   |                                                                                          
+>>| Slot |  |Light Item | Equipped?|
+>>| :-: | :---------------- |--------|--------|
+>>| 1 | `INPUT[text:Title69]` | <input type="checkbox" unchecked>  |  <input type="checkbox" unchecked>   | 
+>>| 2 | `INPUT[text:Title1]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 3 | `INPUT[text:Title2]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 4 | `INPUT[text:Title3]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 5 | `INPUT[text:Title4]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 6 |`INPUT[text:Title5]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 7 | `INPUT[text:Title6]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 8 | `INPUT[text:Title7]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 9 | `INPUT[text:Title8]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 10 | `INPUT[text:Title9]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 11 | `INPUT[text:Title10]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 12 | `INPUT[text:Title11]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 13 | `INPUT[text:Title12]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 14 | `INPUT[text:Title13]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 15 | `INPUT[text:Title14]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 16 | `INPUT[text:Title1416]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 17 | `INPUT[text:Title1417]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 18 | `INPUT[text:Title1418]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 19 | `INPUT[text:Title1419]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 20 | `INPUT[text:Title1420]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 21 | `INPUT[text:Title1421]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 22 | `INPUT[text:Title1422]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 23 | `INPUT[text:Title143]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 24 | `INPUT[text:Title1424]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 25 | `INPUT[text:Title1425]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 26 | `INPUT[text:Title1426]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 27 | `INPUT[text:Title1427]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 28 | `INPUT[text:Title1428]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 29 | `INPUT[text:Title1431]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 30 | `INPUT[text:Title1430]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 31 | `INPUT[text:Title1432]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 32 | `INPUT[text:Title1433]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 33 | `INPUT[text:Title1434]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 34 | `INPUT[text:Title1435]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 35 | `INPUT[text:Title1436]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 36 | `INPUT[text:Title1437]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 37 | `INPUT[text:Title1438]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 38 | `INPUT[text:Title1439]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 39 | `INPUT[text:Title1440]` |<input type="checkbox" unchecked>   |<input type="checkbox" unchecked>   | 
+>>| 40 | `INPUT[text:Title1441]` |<input type="checkbox" unchecked>   |  <input type="checkbox" unchecked>   |                                                                                         
 
 ```meta-bind-button
 label: Add
