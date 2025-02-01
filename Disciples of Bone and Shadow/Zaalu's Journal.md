@@ -22,4 +22,19 @@ Encounter Check 5
 
 Room check 12
 
-![[barbarian_Female_swordsman_1.png]]
+Room 3 
+###### Cave Exploration
+
+**Tremors**. The ground and walls suddenly begin to shake, causing debris to fall all around you. Perform a Dodge test to avoid being hit by falling rock; if you fail you lose D4 HP
+
+Dodge check 44
+1d%[35]
+Success
+
+Room 4
+
+Encounter Check 2 Encounter!
+
+###### Cave Encounters
+
+Beast: Madari rats (Vermin)
