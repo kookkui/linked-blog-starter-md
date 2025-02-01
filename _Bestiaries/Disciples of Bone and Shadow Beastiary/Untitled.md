@@ -1,24 +1,24 @@
 ```statblock
 
-name: "Blessed One"
+name: "Madari Rats"
 
 layout: DBS 
 
-type: "Humanoid"
+type: "Beast Morale -1"
 
-loot: "Rare +5"
+loot: "No Loot"
 
 DEF: TL5
 
-OFF: TL10
+OFF: TL5
 
-damage: "1D4+TL1"
+damage: " 1+TL1"
 
 hp: "12+TL20"
 
-awareness: 20
+awareness: 18
 
-initiative: 12
+initiative: 14
 
 traits:
   - name: 'Special I:'
