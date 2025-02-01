@@ -86,3 +86,7 @@ Zaalu's Turn
 <span style="color:rgb(255, 105, 180)">Victory! </span> 
 
 +5 XP 
+
+###### Cave Encounters
+
+Undead: Risen (Common)
