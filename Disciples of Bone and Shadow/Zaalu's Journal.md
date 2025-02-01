@@ -46,3 +46,43 @@ creature: Madari Rats
 
 
 Turn  Madari Rat 1
+
+Dodge check 39
+1d%[30]
+
+Turn  Madari Rat 2
+Dodge check 39 
+1d%[6]
+Critical Success Counterattack 
+3 damage to rat 2 
+
+Turn Madari Rat 3
+Parry check 401d%
+[23]
+Dodged
+
+Zaalu's Turn
+
+**One-Handed Melee** 40 1d%
+[32]
+
+6 Damage
+
+Turn Madari Rat 3 
+Dodge check 39 
+1d%
+[94]
+Hit
+
+2 Damage 
+
+Zaalu's Turn 
+
+**One-Handed Melee** 40 1d%
+[37]
+
+2 Damage 
+
+<span style="color:rgb(255, 105, 180)">Victory! </span> 
+
++5 XP 
