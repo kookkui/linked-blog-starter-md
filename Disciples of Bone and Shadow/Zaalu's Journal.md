@@ -90,3 +90,63 @@ Zaalu's Turn
 ###### Cave Encounters
 
 Undead: Risen (Common)
+
+```statblock
+creature: Risen (Drowned One)
+```
+
+
+Battle Begins
+
+Zaalu turn 
+
+Attacking Risen 1 
+
+**One-Handed Melee** check 45 1d%
+[90]
+
+Failed.
+
+Risen 1 turn 
+
+Parry check 55 1d%
+[15]
+
+Parried!  1 Damage to Risen 1
+
+Risen 2 turn 
+
+Parry check 55 1d%
+[31] 
+
+Parried!  1 damage to risen 2
+
+Zaalu's Turn  
+
+**One-Handed Melee** check 45 1d%
+[35]
+
+Hit, 4 damage to Risen 1 
+
+Parry Check 55 1d%
+[6] CRIT 2 Damage to risen 1
+
+Crit = +1 Parry Skill
+
+Risen 2 turn 
+
+Parry check 55 1d%
+[36] Dodged
+
+Zaalu turn 
+
+**One-Handed Melee** check 45 1d%
+[34]
+
+Hit 6 Damage to Risen 1 
+
+Risen 1 turn 
+Parry check 55 1d%
+[44] CRIT 2 damge to r
+
+Crit = +1 Parry Skill

@@ -110,7 +110,7 @@ axp: 5
 >>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `45` |
 >>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `46` |
->>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `45` |
+>>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `46` |
 >>| **Perception** (20) | `30` |
 >>| **Persuasion** (CHA `=this.CHA`) | `12` |
 >>| **Pick Pockets** (DEX `=this.DEX`) | `17` |
