@@ -147,6 +147,76 @@ Hit 6 Damage to Risen 1
 
 Risen 1 turn 
 Parry check 55 1d%
-[44] CRIT 2 damge to r
+[44] CRIT 2 damage to Risen 1
 
-Crit = +1 Parry Skill
+Crit = +1 Parry Skill (Total 47)
+
+Risen 1 ded
+
+Risen 2 turn
+
+Parry check 57  1d%
+[38] Pass 1 Damage to Risen 2
+
+Zaalu turn
+
+**One-Handed Melee** 45 roll 18
+
+Hit 3 damage 
+
+Risen 2 turn
+
+Parry Test 57 1d%
+[20] Pass
+
+Zaalu turn
+
+**One-Handed Melee** 45 1d%
+[11] 
+
+Crit = +1 **One-Handed Melee** (Total 46)
+
+Roll 4 = 8 damage total 
+
+Risen 2 turn
+
+Parry Test 57 1d%
+[56]Pass
+
+Damage 3 to risen 2
+
+<span style="color:rgb(255, 105, 180)">Victory! </span> 
+
++20XP
+###### Valuable Finds
+
+Tome of Herbal Tradition 200 Light
+
+Literacy Check 34 1d%
+[9] Crit READING
+
++1 Literacy (Total 35)
++5 **Herb Lore** (Total 35)
+
+d12 check 5
+
+Room 5 
+
+Encounter check 4
+
+**Narrow Passage**. The cave suddenly narrows down to a point where you must not only crawl, but also get rid of any large shield or bulky armor if you want to make it through
+
+No exit from this room
+
+Back through room 4 encounter check 5
+
+Room 2 check 4
+
+Room 6 
+
+E Check 5
+
+###### Cave Exploration
+
+Beast: Pale Ghar (Common)
+
