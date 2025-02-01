@@ -13,14 +13,17 @@
 
 
 >[!tldr] Interior Exploration
+>###### Random Direction
+>`dice:[[DBS Tables#^c137e4]]`
+>
+>###### Interior Exploration
+>`dice:[[DBS Tables#^63f2a8]]`
+>
 >###### Doors
 >`dice:[[DBS Tables#^e7d45c]]`
 >
 >###### Exits
 >`dice:[[DBS Tables#^432bd3]]`
->
->###### Interior Exploration
->`dice:[[DBS Exploration Tables#^9d5567]]`
 >
 >###### Traps
 >`dice:[[DBS Exploration Tables#^2a3c84]]`
@@ -30,6 +33,10 @@
 >
 >###### Artifice Effect
 >`dice:[[DBS Tables#^819548]]`
+>
+>###### Ruin or Cave Size
+>`dice:[[DBS Tables#^586f65]]`
+
 
 
 

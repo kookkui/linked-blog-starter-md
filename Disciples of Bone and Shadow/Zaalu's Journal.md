@@ -13,4 +13,13 @@ Critical on Orientation +1 to skill
 **Cave.** A half-visible trail leads the party to a seemingly natural cave. If the
 party decides to explore it, use the Indoor Location generation rules
 
+Room 2 
+A standard wooden door braced with hardened branches. Unlocked
 
+**Nothing of interest.** This section of the cave is empty and has nothing of interest
+
+Encounter Check 5
+
+Room check 12
+
+![[barbarian_Female_swordsman_1.png]]
