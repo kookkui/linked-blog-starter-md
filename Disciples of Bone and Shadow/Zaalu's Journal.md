@@ -38,3 +38,11 @@ Encounter Check 2 Encounter!
 ###### Cave Encounters
 
 Beast: Madari rats (Vermin)
+
+```statblock
+creature: Madari Rats
+```
+
+
+
+Turn  Madari Rat 1
