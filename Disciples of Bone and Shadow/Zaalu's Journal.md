@@ -216,7 +216,83 @@ Room 6
 
 E Check 5
 
+**First Aid** Test 40 1d%
+[65] Failed
+
 ###### Cave Exploration
 
 Beast: Pale Ghar (Common)
 
+```statblock
+creature: Pale Ghar
+```
+
+
+Battle Time
+
+Zaalu Turn
+
+**One-Handed Melee** 46 1d%
+[88] Failed
+
+Pale Ghar Turn
+
+Parry test 57 1d%
+[53] Passed
+
+1 Damage to Pale Ghar 
+
+Zaalu turn 
+
+**One-Handed Melee** 46  1d%
+[3] CRIT
+
++1 **One-Handed Melee** Skill (Total 47)
+
+Roll 5 x 2 = 10 Damage 
+
+Pale Ghar turn 
+
+Parry test 571d%
+[16]
+Passed
+
+2 Damage to Ghar
+
+Zaalu turn
+
+**One-Handed Melee** 47 1d%
+[33] Critical hit
+
++1 **One-Handed Melee** Skill (Total 48)
+
+Roll 5 x 2 = 10 Damage 
+
+Pale Ghar turn
+
+Parry test 57 1d%
+[90] hit
+
+3 Damage to Zaalu 
+
+CON (-5) test 1d20
+[3] Passed
+
+**One-Handed Melee** 481d%
+[31]
+
+Hit 2 Damage to Ghar(Ded)
+
+<span style="color:rgb(255, 105, 180)">Victory! </span> 
+
++10 XP 
+
+Crafting Test 37 1d%
+[6] Critical
++1 Crafting Skill (38 Total)
+
+1 hour spent harvesting 10 Pale Ghar claws  (20 jats ea.)
+
+###### Cave Encounters
+
+Beast: Tundra Rats (Vermin)

@@ -10,7 +10,7 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-xp: 25
+xp: 35
 Weapon1: One-Handed Sword
 Weapon1dmg: d6
 Weapon1notes: +10 Parry
@@ -41,7 +41,8 @@ passive0: "**Marksmanship**: You may relinquish your turn to aim with a Ranged W
 passive1: "**Foraging (Archetype Exclusive)**: This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild."
 passive2: "**Inner Compass**: You may re-roll once any failed Orientation tests."
 archetype0: "**Hunter**: Foraging, Marksmanship"
-axp: 20
+axp: 10
+Title4: 10 Pale Ghar claws  (20 jats ea.)
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -100,14 +101,14 @@ axp: 20
 >>| **Alchemy** | `30` |
 >>| **Animal Handling** (CHA `=this.CHA`) | `12` |
 >>| **Command Skills** (CHA `=this.CHA`) | `12` |
->>| **Crafting** (DEX `=this.DEX`) | `37` |
+>>| **Crafting** (DEX `=this.DEX`) | `38` |
 >>| **Disguise** (DEX `=this.DEX`) | `17` |
 >>| **Dodge** (DEX `=this.DEX` x 2) | `44` |
 >>|**First Aid** (20) | `40` |
 >>| **Forbidden Lore** | `20` |
 >>| **Herb Lore** | `35` |
 >>| **Literacy** (INT `=this.INT`) | `35` |
->>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `46` |
+>>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `48` |
 >>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `46` |
 >>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `47` |

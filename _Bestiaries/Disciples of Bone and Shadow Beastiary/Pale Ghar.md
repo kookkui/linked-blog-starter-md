@@ -6,35 +6,29 @@ layout: DBS
 
 type: "Beast"
 
-loot: "No Loot"
+loot: "No Loot, D10 claws that sell for 20 jats each"
 
-DEF: TL5
+DEF: 0
 
-OFF: TL5
+OFF: TL10
 
-damage: " 1+TL1"
+damage: "D4+TL1"
 
-hp: "12+TL20"
+hp: "15+TL10"
 
-awareness: 18
+awareness: 10
 
-initiative: 14
+initiative: 18
 
 traits:
   - name: 'Special I:'
-    desc: "Stuff and things."
-  - name: 'Special II:'
-    desc: "(Stuff and things)+d20"
+    desc: "Their bite applies a poison that deals D4 damage every turn (nonstackable) unless a CON (-5) test is passed"
 
-stats: [10, 12, 12, 20, 18, 10]
+stats: [12, 22, 15, 10, 2, 0]
 
 number: 1
 
-skills: "Alchemy 50, Command Skills 25, Disguise 40, Forbidden Lore 70, Literacy 80, Persuasion 40, Perception 50"
-
-gear: "G-string" 
-
-description: "Couple of guys started making trouble in my neghborhood. My mom got scared and said you movin to your aunty and uncles house in a town called Bel Air."
+description: "These lizards can grow to the size of a horse and use their dark, slick skin to hide in the shadows, waiting for the perfect opportunity to pounce over their unsuspecting prey. If their sharp fangs and claws aren't enough to finish a fight quickly, usually their poison finishes the job sooner or later."
 
 ```
 
