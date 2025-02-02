@@ -402,3 +402,21 @@ Room 7
 
 E Check 10
 
+###### Cave Exploration
+
+Beast:Wolf (Common)
+
+```statblock
+creature: Wolf
+```
+
+Number:  1
+
+Battle
+
+Wolf turn
+
+**Parry** Test 58 1d%
+[49] Passed
+
+2 Damage to the wolf
