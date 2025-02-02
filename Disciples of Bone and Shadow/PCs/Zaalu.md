@@ -108,10 +108,10 @@ Title4: 10 Pale Ghar claws  (20 jats ea.)
 >>| **Forbidden Lore** | `20` |
 >>| **Herb Lore** | `35` |
 >>| **Literacy** (INT `=this.INT`) | `35` |
->>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `48` |
+>>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `50` |
 >>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `46` |
->>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `47` |
+>>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `48` |
 >>| **Perception** (20) | `30` |
 >>| **Persuasion** (CHA `=this.CHA`) | `12` |
 >>| **Pick Pockets** (DEX `=this.DEX`) | `17` |

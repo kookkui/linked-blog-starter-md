@@ -296,3 +296,83 @@ Crafting Test 37 1d%
 ###### Cave Encounters
 
 Beast: Tundra Rats (Vermin)
+```statblock
+creature: Tundra Rats
+```
+
+
+Combat begins
+
+Tundra Rat 1 Turn
+
+Parry test 57 1d%
+[30] Passed
+
+2 Damage to Rat 1
+
+Tundra Rat 2 Turn
+Parry test 57 1d%
+[78] Hit
+
+5 damage to Zaalu 
+
+Zaalu Turn  
+
+**One-Handed Melee** 48 1d%
+[14] Hit
+
+3 Damage to Rat 1
+
+Rat 1 Turn
+
+Parry test 57 1d%
+[8] Crit hit
+
++1 Parry (Total 48)
+
+Damage 3 Total Damage to rat 1 
+
+Rat 2 turn
+Parry test 58 1d%
+[81] Hit
+
+3 Damage to Zaalu
+
+Zaalu Turn 
+
+**One-Handed Melee** 48 1d%
+[9] Crit hit
+
++1 **One-Handed Melee** (Total 49)
+
+Damage 6 = 12 damage to Rat 1
+
+Rat 1 turn
+
+Parry test 58 1d%
+[57] Pass
+
+2 Damage Rat 1 
+
+Rat 2 turn
+
+Parry test 58 1d%
+[58] Pass
+
+2 damage to rat 2
+
+Zaalu turn
+
+**One-Handed Melee** 491d%
+[7] CRIT HIT
+
++1 **One-Handed Melee** (Total 50)
+
+Damage 5 = 10 to Rat 1 
+
+Rat 1 Dead
+
+Rat 2 Turn
+
+At the sight of his fallen comrade Rat 2 must pass morale test.
+
