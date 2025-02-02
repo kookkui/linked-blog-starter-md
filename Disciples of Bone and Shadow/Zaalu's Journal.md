@@ -393,3 +393,12 @@ First aid check 40
 [32]
 
 Zaalu is able to patch herself up and regain 6 HP
+
+Room 6 
+###### Exits
+Two
+
+Room 7
+
+E Check 10
+

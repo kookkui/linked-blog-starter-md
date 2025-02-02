@@ -43,11 +43,12 @@ passive2: "**Inner Compass**: You may re-roll once any failed Orientation tests.
 archetype0: "**Hunter**: Foraging, Marksmanship"
 axp: 5
 Title4: 10 Pale Ghar claws  (20 jats ea.)
+Title5: One-Handed Sword
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
 >> # `=this.file.name`
->> ![[Remote-SoloRPGs/_ Assets/Remote-SoloRPGs/Disciples of Bone and Shadow/PCs/Zaalu/Zaalu_non_AI.webp]]
+>> ![[Zaalu_Non_AI.webp]]
 >> ###### Stats
 >>|     |     |
 >> |--- | --- |
