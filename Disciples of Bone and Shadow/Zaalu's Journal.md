@@ -420,3 +420,70 @@ Wolf turn
 [49] Passed
 
 2 Damage to the wolf
+
+Zaalu Turn
+
+**One-Handed Melee** Test 50 1d%
+[46] Hit
+
+4 Damage to Wolf
+
+Wolf Turn
+
+**Parry** Test 58 1d%
+[93] Hit
+
+5 Damage to Zaalu
+
+Zaalu turn
+
+**One-Handed Melee** Test 50 1d%
+[15] Hit
+
+4 Damage to Wolf
+
+Wolf turn 
+
+**Parry** Test 581d%
+[42] Pass
+
+2 damage to wolf
+
+Wolf licking its wounds has to pass a morale check 8 1d20
+[16] Failed Wolf is running
+
+Zaalu tries to chase it to finish it off
+
+DEX Test 17 1d20
+[13]Zaalu Passed 
+
+DEX Test 20 1d20
+[1] Wolf Failed
+
+Zaalu Turn
+
+**One-Handed Melee** Test 50 1d%
+[25] Passed
+
+4 Damage to Wolf
+
+Wolf Turn
+
+**Parry** Test 58 1d%
+[36] Passed
+
+2 Damage to Wolf 
+
+<span style="color:rgb(255, 105, 180)">Victory! </span> 
+
++10 XP
+
+Crafting Test 38  1d%
+[17] Passed
+
+2 Hours Spent skinning
+
+Encounter check 4
+
++1 Wolf Pelt (100 jats)
+
