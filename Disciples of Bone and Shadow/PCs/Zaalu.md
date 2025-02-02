@@ -2,7 +2,7 @@
 Art: "![[Character Image Placholder]]"
 Level: 1
 Corruption: 10
-HP: 48
+HP: 41
 GeSl: 0
 STR: 18
 DEX: 17
@@ -10,7 +10,7 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-xp: 35
+xp: 40
 Weapon1: One-Handed Sword
 Weapon1dmg: d6
 Weapon1notes: +10 Parry
@@ -21,7 +21,7 @@ Weapon3:
 Weapon3dmg: 
 Weapon3notes: 
 Armor: 0
-DmgTkn: 2
+DmgTkn: 0
 TempHP: 0
 currency: 125
 provisions: 10
@@ -41,7 +41,7 @@ passive0: "**Marksmanship**: You may relinquish your turn to aim with a Ranged W
 passive1: "**Foraging (Archetype Exclusive)**: This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild."
 passive2: "**Inner Compass**: You may re-roll once any failed Orientation tests."
 archetype0: "**Hunter**: Foraging, Marksmanship"
-axp: 10
+axp: 5
 Title4: 10 Pale Ghar claws  (20 jats ea.)
 ---
 >[!dice] %%FAKE TITLE HERE%%

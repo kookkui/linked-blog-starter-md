@@ -376,3 +376,20 @@ Rat 2 Turn
 
 At the sight of his fallen comrade Rat 2 must pass morale test.
 
+WIL = 10 1d20
+[14] Failed
+
+Rat 2 is running away
+
+Zaalu lets the coward run not worth the time.
+
+<span style="color:rgb(255, 105, 180)">Victory! </span> 
+
++5 XP 
+
+First aid check 40 
+
+1d%
+[32]
+
+Zaalu is able to patch herself up and regain 6 HP

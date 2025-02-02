@@ -11,6 +11,8 @@ awareness: 18
 initiative: 18 
 number: 1+TL1 
 
+stats: [7, 12, 6, 12, 6, 0]
+
 traits:  
 - Special I: Improved Critical (attack rolls have a +2 bonus).  
 - Tunneling Attack: Can burrow through snow and ice to attack from unexpected angles.  
